@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 4%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 4%;
+  --border: 240 6% 90%;
+  --primary: 262 83% 58%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 240 5% 96%;
+  --muted-foreground: 240 4% 46%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+  color-scheme: light dark;
+
+  /* dataviz palette (see references/palette.md in the dataviz skill) */
+  --chart-surface: #fcfcfb;
+  --chart-ink-primary: #0b0b0b;
+  --chart-ink-secondary: #52514e;
+  --chart-ink-muted: #898781;
+  --chart-gridline: #e1e0d9;
+  --chart-baseline: #c3c2b7;
+  --chart-series-1: #2a78d6; /* blue */
+  --chart-series-2: #1baf7a; /* aqua */
+  --chart-series-3: #eda100; /* yellow */
+  --chart-series-4: #008300; /* green */
+  --chart-series-5: #4a3aa7; /* violet */
+  --chart-series-6: #e34948; /* red */
+  --chart-series-7: #e87ba4; /* magenta */
+  --chart-series-8: #eb6834; /* orange */
+  --chart-sequential-300: #6da7ec;
+  --chart-sequential-450: #2a78d6;
+  --chart-sequential-600: #184f95;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 240 10% 8%;
+    --foreground: 0 0% 96%;
+    --card: 240 8% 12%;
+    --card-foreground: 0 0% 96%;
+    --border: 240 5% 22%;
+    --primary: 263 70% 65%;
+    --primary-foreground: 0 0% 100%;
+    --muted: 240 5% 18%;
+    --muted-foreground: 240 5% 65%;
+    --destructive: 0 63% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --chart-surface: #1a1a19;
+    --chart-ink-primary: #ffffff;
+    --chart-ink-secondary: #c3c2b7;
+    --chart-ink-muted: #898781;
+    --chart-gridline: #2c2c2a;
+    --chart-baseline: #383835;
+    --chart-series-1: #3987e5;
+    --chart-series-2: #199e70;
+    --chart-series-3: #c98500;
+    --chart-series-4: #008300;
+    --chart-series-5: #9085e9;
+    --chart-series-6: #e66767;
+    --chart-series-7: #d55181;
+    --chart-series-8: #d95926;
+    --chart-sequential-300: #5598e7;
+    --chart-sequential-450: #3987e5;
+    --chart-sequential-600: #184f95;
+  }
+}
+
+body {
+  margin: 0;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+}
