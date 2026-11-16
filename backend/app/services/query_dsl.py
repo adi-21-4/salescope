@@ -13,6 +13,7 @@ _COLUMN_MAP = {
     "product": "product_name",
     "category": "category",
     "location": "location",
+    "agent": "agent",
     "payment_method": "payment_method",
 }
 

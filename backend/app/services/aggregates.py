@@ -16,7 +16,8 @@ def load_sales_dataframe(db: Session, shop_id: uuid.UUID, dataset_id: uuid.UUID)
     """
     query = text(
         """
-        SELECT sale_date, product_name, category, location, payment_method, quantity, unit_price, revenue
+        SELECT sale_date, product_name, category, location, agent, customer_id, payment_method,
+               quantity, unit_price, unit_cost, gross_profit, revenue
         FROM sales_records
         WHERE shop_id = :shop_id AND dataset_id = :dataset_id AND NOT is_incomplete
         """
@@ -28,24 +29,82 @@ def load_sales_dataframe(db: Session, shop_id: uuid.UUID, dataset_id: uuid.UUID)
 
 
 def summary_stats(df: pd.DataFrame) -> dict:
-    """Headline KPI numbers for the dashboard's stat-tile row."""
+    """Headline sales, volume, and cost-coverage metrics for the dashboard."""
     if df.empty:
         return {
             "total_revenue": 0.0,
             "total_sales": 0,
             "avg_sale_value": 0.0,
+            "total_units": 0.0,
+            "gross_profit": None,
+            "gross_margin_pct": None,
+            "cost_coverage_pct": 0.0,
             "date_range_start": None,
             "date_range_end": None,
         }
     total_revenue = float(df["revenue"].sum())
     total_sales = int(len(df))
+    total_units = float(df["quantity"].fillna(0).sum()) if "quantity" in df.columns else float(total_sales)
+    cost_rows = df.dropna(subset=["unit_cost", "gross_profit"]) if {"unit_cost", "gross_profit"}.issubset(df.columns) else df.iloc[0:0]
+    cost_revenue = float(cost_rows["revenue"].sum()) if not cost_rows.empty else 0.0
+    gross_profit = float(cost_rows["gross_profit"].sum()) if not cost_rows.empty else None
     return {
         "total_revenue": round(total_revenue, 2),
         "total_sales": total_sales,
         "avg_sale_value": round(total_revenue / total_sales, 2) if total_sales else 0.0,
+        "total_units": round(total_units, 2),
+        "gross_profit": round(gross_profit, 2) if gross_profit is not None else None,
+        "gross_margin_pct": round(gross_profit / cost_revenue * 100, 1) if gross_profit is not None and cost_revenue > 0 else None,
+        "cost_coverage_pct": round(cost_revenue / total_revenue * 100, 1) if total_revenue > 0 else 0.0,
         "date_range_start": df["sale_date"].min().date().isoformat(),
         "date_range_end": df["sale_date"].max().date().isoformat(),
     }
+
+
+def performance_highlights(df: pd.DataFrame) -> list[dict]:
+    """Return concise, deterministic takeaways derived only from this dataset."""
+    if df.empty:
+        return []
+
+    highlights: list[dict] = []
+    total = float(df["revenue"].sum())
+
+    products = top_bottom_products(df, n=1)["top"]
+    if products:
+        product = products[0]
+        share = float(product["revenue"]) / total * 100 if total else 0
+        highlights.append({
+            "kind": "product",
+            "label": "Top product",
+            "value": product["product"],
+            "detail": f"{share:.1f}% of recorded revenue",
+        })
+
+    for kind, label, rows, key in (
+        ("category", "Leading category", category_breakdown(df), "category"),
+        ("location", "Leading location", location_breakdown(df), "location"),
+    ):
+        if rows:
+            leader = rows[0]
+            highlights.append({
+                "kind": kind,
+                "label": label,
+                "value": leader[key],
+                "detail": f"{leader['pct']:.1f}% of recorded revenue",
+            })
+
+    weekdays = day_of_week_trends(df)
+    if weekdays:
+        strongest = max(weekdays, key=lambda row: row["avg_revenue"])
+        if strongest["avg_revenue"] > 0:
+            highlights.append({
+                "kind": "weekday",
+                "label": "Strongest day",
+                "value": strongest["day"],
+                "detail": f"{strongest['avg_revenue']:,.0f} average daily revenue",
+            })
+
+    return highlights
 
 
 _REVENUE_OVER_TIME_FREQ = {"day": "D", "week": "W", "month": "MS"}
@@ -145,6 +204,43 @@ def category_breakdown(df: pd.DataFrame) -> list[dict]:
 
 def location_breakdown(df: pd.DataFrame) -> list[dict]:
     return _share_breakdown(df, "location", "location")
+
+
+def agent_performance(df: pd.DataFrame, limit: int = 20) -> list[dict]:
+    """Rank agents and assign Pareto ABC tiers by cumulative revenue share."""
+    if df.empty or "agent" not in df.columns or df["agent"].isna().all():
+        return []
+    work = df[df["agent"].notna() & (df["agent"].astype(str).str.strip() != "")]
+    if work.empty:
+        return []
+    grouped = (
+        work.groupby("agent")["revenue"]
+        .agg(revenue="sum", transactions="count")
+        .sort_values("revenue", ascending=False)
+        .head(limit)
+    )
+    total_revenue = float(work["revenue"].sum())
+    if total_revenue <= 0:
+        return []
+    results = []
+    cumulative = 0.0
+    for agent, values in grouped.iterrows():
+        revenue = float(values["revenue"])
+        share = revenue / total_revenue * 100
+        prior_cumulative = cumulative
+        cumulative += share
+        tier = "A" if prior_cumulative < 80 else "B" if prior_cumulative < 95 else "C"
+        count = int(values["transactions"])
+        results.append({
+            "agent": str(agent),
+            "revenue": round(revenue, 2),
+            "transactions": count,
+            "average_sale": round(revenue / count, 2) if count else 0.0,
+            "share_pct": round(share, 1),
+            "cumulative_pct": round(cumulative, 1),
+            "tier": tier,
+        })
+    return results
 
 
 def payment_method_breakdown(df: pd.DataFrame) -> list[dict]:

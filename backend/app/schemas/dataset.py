@@ -7,8 +7,8 @@ from pydantic import BaseModel, Field
 from app.models.dataset import DatasetStatus
 
 ColumnRole = Literal[
-    "date", "product", "quantity", "price", "line_total",
-    "category", "status", "location", "payment_method",
+    "date", "product", "quantity", "price", "unit_cost", "line_total",
+    "category", "status", "location", "agent", "customer_id", "payment_method",
 ]
 MappingRole = ColumnRole | Literal["ignore"]
 

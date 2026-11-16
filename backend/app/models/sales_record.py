@@ -30,13 +30,19 @@ class SalesRecord(Base):
     sale_date: Mapped[date] = mapped_column(Date, nullable=False)
     product_name: Mapped[str | None] = mapped_column(String(500), nullable=True)
     category: Mapped[str | None] = mapped_column(String(255), nullable=True)
-    # Store location / branch / sales agent -- whichever the shop's data has.
+    # Physical shop, branch, or sales territory. Salespeople are tracked separately.
     location: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    agent: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    customer_id: Mapped[str | None] = mapped_column(String(255), nullable=True)
     payment_method: Mapped[str | None] = mapped_column(String(255), nullable=True)
     quantity: Mapped[float | None] = mapped_column(Numeric, nullable=True)
     unit_price: Mapped[float | None] = mapped_column(Numeric, nullable=True)
+    unit_cost: Mapped[float | None] = mapped_column(Numeric, nullable=True)
     revenue: Mapped[float | None] = mapped_column(
         Numeric, Computed("quantity * unit_price", persisted=True), nullable=True
+    )
+    gross_profit: Mapped[float | None] = mapped_column(
+        Numeric, Computed("quantity * (unit_price - unit_cost)", persisted=True), nullable=True
     )
     is_incomplete: Mapped[bool] = mapped_column(Boolean, default=False)
 

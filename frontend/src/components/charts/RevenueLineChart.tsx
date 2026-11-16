@@ -61,6 +61,10 @@ export default function RevenueLineChart({ data, forecast }: Props) {
           strokeWidth={2}
           dot={false}
           activeDot={{ r: 4 }}
+          isAnimationActive="auto"
+          animationBegin={60}
+          animationDuration={780}
+          animationEasing="ease-out"
         />
         {forecast && forecast.length > 0 && (
           <Line
@@ -73,6 +77,10 @@ export default function RevenueLineChart({ data, forecast }: Props) {
             strokeOpacity={0.6}
             dot={false}
             activeDot={{ r: 4 }}
+            isAnimationActive="auto"
+            animationBegin={120}
+            animationDuration={620}
+            animationEasing="ease-out"
           />
         )}
       </LineChart>

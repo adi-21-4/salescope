@@ -39,7 +39,7 @@ export default function DayOfWeekChart({ data }: { data: DayOfWeekPoint[] }) {
           formatter={(value) => [currency.format(Number(value)), "Avg. revenue"]}
           labelFormatter={(_label, payload) => payload[0]?.payload.day ?? ""}
         />
-        <Bar dataKey="avg_revenue" fill={SEQUENTIAL_COLOR} radius={[4, 4, 0, 0]} />
+        <Bar dataKey="avg_revenue" fill={SEQUENTIAL_COLOR} radius={[4, 4, 0, 0]} isAnimationActive="auto" animationBegin={100} animationDuration={620} animationEasing="ease-out" />
       </BarChart>
     </ResponsiveContainer>
   );

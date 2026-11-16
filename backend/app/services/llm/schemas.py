@@ -5,11 +5,11 @@ from pydantic import BaseModel, Field
 # --- Insights (M4) ---
 
 InsightCategory = Literal[
-    "trend", "anomaly", "seasonality", "product", "category", "location", "payment_method"
+    "trend", "anomaly", "seasonality", "product", "category", "location", "agent", "payment_method", "profit", "retention"
 ]
 ChartRef = Literal[
     "revenue_over_time", "day_of_week", "seasonality", "top_products",
-    "category_breakdown", "location_breakdown", "payment_method_breakdown",
+    "category_breakdown", "location_breakdown", "agent_performance", "payment_method_breakdown",
 ]
 
 
@@ -31,7 +31,7 @@ class GeneratedInsightsResponse(BaseModel):
 
 # --- Natural-language query (M5) ---
 
-CanonicalColumn = Literal["date", "product", "category", "location", "payment_method"]
+CanonicalColumn = Literal["date", "product", "category", "location", "agent", "payment_method"]
 Metric = Literal["revenue", "quantity", "count", "avg_price"]
 
 

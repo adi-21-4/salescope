@@ -43,9 +43,9 @@ export default function QueryResultChart({ data, chartType }: Props) {
           formatter={(value) => [currency.format(Number(value)), "Value"]}
         />
         {chartType === "line" ? (
-          <Line type="monotone" dataKey="value" stroke={SEQUENTIAL_COLOR} strokeWidth={2} dot={false} />
+          <Line type="monotone" dataKey="value" stroke={SEQUENTIAL_COLOR} strokeWidth={2} dot={false} isAnimationActive="auto" animationBegin={60} animationDuration={700} animationEasing="ease-out" />
         ) : (
-          <Bar dataKey="value" fill={SEQUENTIAL_COLOR} radius={[4, 4, 0, 0]} />
+          <Bar dataKey="value" fill={SEQUENTIAL_COLOR} radius={[4, 4, 0, 0]} isAnimationActive="auto" animationBegin={60} animationDuration={620} animationEasing="ease-out" />
         )}
       </ChartComponent>
     </ResponsiveContainer>

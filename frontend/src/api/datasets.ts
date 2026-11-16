@@ -44,10 +44,13 @@ export type ColumnRole =
   | "product"
   | "quantity"
   | "price"
+  | "unit_cost"
   | "line_total"
   | "category"
   | "status"
   | "location"
+  | "agent"
+  | "customer_id"
   | "payment_method";
 export type MappingRole = ColumnRole | "ignore";
 

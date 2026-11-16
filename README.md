@@ -1,4 +1,4 @@
-# SalesCope
+# SalesScope
 
 A hosted, multi-tenant SaaS tool that turns a shop's raw sales spreadsheet into a
 dashboard, AI-written insights, a natural-language query box, and a revenue
@@ -13,7 +13,7 @@ Built end-to-end: FastAPI + Postgres backend, React + TypeScript frontend, Claud
 
 - **Upload & auto-mapping** — drag in a CSV/XLSX; a heuristic column detector
   (name-keyword + dtype-sniffing) guesses which column is the date, product,
-  quantity, price, category, location, and payment method, with a confidence
+  quantity, price, category, physical location, sales agent, and payment method, with a confidence
   score per guess. Nothing is written to the database until the mapping is
   confirmed — a wrong silent guess would otherwise produce a dashboard full of
   plausible-looking wrong numbers.
@@ -21,9 +21,11 @@ Built end-to-end: FastAPI + Postgres backend, React + TypeScript frontend, Claud
   values for them, and deduplicates re-uploads via a content hash so re-importing
   the same file is a no-op.
 - **Auto-generated dashboard** — revenue over time (day/week/month), top/bottom
-  products, day-of-week and seasonal trends, and category/location/payment-method
-  breakdowns, all computed server-side from one shared aggregates module so every
-  chart and the AI narration agree with each other.
+  products, day-of-week and seasonal trends, agent Pareto tiers, and category/location/payment-method
+  breakdowns. Animated charts, revenue-mix donuts, location share bars, and
+  summary metrics for units sold, gross profit, gross margin, and cost coverage
+  make the main performance drivers easier to compare. All figures are computed
+  server-side from one shared aggregates module so every chart and insight agrees.
 - **AI insights panel** — Claude reads the same computed aggregates the dashboard
   shows (never raw rows) and writes plain-language findings, each required to
   cite a real number from the input. Results are cached per dataset to avoid
@@ -48,6 +50,14 @@ Built end-to-end: FastAPI + Postgres backend, React + TypeScript frontend, Claud
 (Holt-Winters forecasting), Anthropic SDK (Claude), JWT auth, pytest.
 
 **Frontend:** React, TypeScript, Vite, Tailwind CSS, Recharts, React Router.
+
+## Screenshots
+
+These screenshots show the dashboard using the sample sales dataset.
+
+![SalesScope agent performance and trend charts](screenshots/dashboard-overview.png)
+
+![SalesScope category, location, and payment breakdowns](screenshots/dashboard-charts.png)
 
 ## Architecture notes
 

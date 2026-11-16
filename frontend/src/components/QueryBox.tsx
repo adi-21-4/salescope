@@ -1,4 +1,5 @@
-import { useState, type FormEvent } from "react";
+import { useEffect, useRef, useState, type FormEvent } from "react";
+import { ArrowUpRight, MessageSquareText } from "lucide-react";
 import { askQuestion, type NLQueryResult } from "@/api/query";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -13,12 +14,22 @@ interface Exchange {
 
 interface Props {
   datasetId: string;
+  className?: string;
+  suggestedQuestion?: { id: number; question: string } | null;
 }
 
-export default function QueryBox({ datasetId }: Props) {
+export default function QueryBox({ datasetId, className = "", suggestedQuestion = null }: Props) {
   const [question, setQuestion] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [history, setHistory] = useState<Exchange[]>([]);
+
+  useEffect(() => {
+    if (!suggestedQuestion) return;
+    setQuestion(suggestedQuestion.question);
+    document.getElementById("ask-your-data")?.scrollIntoView({ behavior: "smooth", block: "center" });
+    window.setTimeout(() => inputRef.current?.focus(), 220);
+  }, [suggestedQuestion]);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -38,28 +49,31 @@ export default function QueryBox({ datasetId }: Props) {
   }
 
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>Ask your data</CardTitle>
+    <Card className={className} id="ask-your-data">
+      <CardHeader className="dashboard-card-header query-header">
+        <CardTitle><MessageSquareText size={17} />Ask your data</CardTitle>
       </CardHeader>
-      <CardContent>
-        <form onSubmit={handleSubmit} className="flex gap-2">
+      <CardContent className="dashboard-card-content query-content">
+        <form onSubmit={handleSubmit} className="query-form">
           <Input
+            ref={inputRef}
+            id="sales-query"
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
-            placeholder="e.g. What were my top 5 products last month?"
+            placeholder="Which products earned the most last month?"
             disabled={isLoading}
+            aria-label="Ask a question about your sales data"
           />
-          <Button type="submit" disabled={isLoading || !question.trim()}>
-            {isLoading ? "Asking…" : "Ask"}
+          <Button className="query-submit" type="submit" disabled={isLoading || !question.trim()}>
+            {isLoading ? "Asking…" : <><span>Ask</span><ArrowUpRight size={15} /></>}
           </Button>
         </form>
 
         {history.length > 0 && (
-          <ul className="mt-4 space-y-4">
+          <ul className="query-history">
             {history.map((exchange, i) => (
-              <li key={i} className="rounded-md border border-[hsl(var(--border))] p-3">
-                <p className="text-sm font-medium">{exchange.question}</p>
+              <li key={i} className="query-exchange">
+                <p className="query-question">{exchange.question}</p>
                 {exchange.error && (
                   <p className="mt-2 text-sm text-[hsl(var(--destructive))]">{exchange.error}</p>
                 )}

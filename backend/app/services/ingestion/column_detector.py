@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 
 import pandas as pd
+import re
 
 ROLE_KEYWORDS: dict[str, list[str]] = {
     "date": ["date", "dt", "order date", "sale date", "transaction date", "txn date", "day"],
@@ -8,6 +9,7 @@ ROLE_KEYWORDS: dict[str, list[str]] = {
     "quantity": ["qty", "quantity", "units", "count", "sold"],
     # "price" means PER-UNIT price -- revenue is computed as quantity * price.
     "price": ["price", "unit price", "unit cost", "cost", "rate"],
+    "unit_cost": ["unit cost", "cost price", "cost per unit", "purchase cost", "landed cost", "cogs"],
     # "line_total" means an already-computed total for that row (qty * price,
     # sometimes net of discount) -- must NOT be multiplied by quantity again.
     # Kept as a distinct role from "price" specifically because a file can
@@ -19,10 +21,12 @@ ROLE_KEYWORDS: dict[str, list[str]] = {
     ],
     "category": ["category", "type", "dept", "department", "class"],
     "status": ["status", "state", "booking status", "order status", "payment status"],
-    "location": [
-        "location", "branch", "store", "outlet", "shop", "site",
-        "agent", "rep", "sales rep", "salesperson", "executive", "assigned to", "staff",
+    "location": ["location", "branch", "store", "outlet", "shop", "site"],
+    "agent": [
+        "agent", "rep", "sales rep", "salesperson", "sales person", "sales representative", "representative",
+        "sales executive", "executive", "assigned to", "staff",
     ],
+    "customer_id": ["customer id", "customer_id", "customer number", "client id", "client number", "buyer id"],
     "payment_method": [
         "payment method", "payment_method", "paymentmethod", "pay method",
         "paid via", "payment type", "payment mode", "tender type",
@@ -60,11 +64,18 @@ class ColumnDetection:
 
 
 def _name_keyword_scores(column_name: str) -> dict[str, float]:
-    name = column_name.strip().lower()
+    separated = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", column_name.strip())
+    name = " " + re.sub(r"[^a-z0-9]+", " ", separated.lower()).strip() + " "
     scores: dict[str, float] = {}
     for role, keywords in ROLE_KEYWORDS.items():
-        if any(kw in name for kw in keywords):
-            scores[role] = 0.7
+        matches = [
+            kw for kw in keywords
+            if " " + re.sub(r"[^a-z0-9]+", " ", kw.lower()).strip() + " " in name
+        ]
+        if role == "price" and any(term in name for term in (" unit cost ", " cost price ", " cogs ", " purchase cost ", " landed cost ", " cost per unit ")):
+            matches = [match for match in matches if match not in {"cost", "unit cost"}]
+        if matches:
+            scores[role] = min(0.92, 0.62 + 0.02 * max(len(match) for match in matches))
     # When both a "gross" and "net" total column exist, prefer net: it already
     # reflects discounts/returns, which is what a shop actually cares about as
     # revenue -- a small nudge so it wins the same-role conflict resolution.

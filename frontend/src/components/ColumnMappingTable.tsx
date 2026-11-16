@@ -6,10 +6,13 @@ const ROLE_OPTIONS: { value: MappingRole; label: string }[] = [
   { value: "product", label: "Product" },
   { value: "quantity", label: "Quantity" },
   { value: "price", label: "Price (per unit)" },
+  { value: "unit_cost", label: "Unit cost (optional)" },
   { value: "line_total", label: "Amount (total for this row)" },
   { value: "category", label: "Category" },
   { value: "status", label: "Status" },
-  { value: "location", label: "Location / Agent" },
+  { value: "location", label: "Location / Branch" },
+  { value: "agent", label: "Sales Agent" },
+  { value: "customer_id", label: "Customer ID (optional)" },
   { value: "payment_method", label: "Payment Method" },
 ];
 
@@ -44,7 +47,7 @@ export default function ColumnMappingTable({ columns, mapping, onChange }: Props
                   {col.detected_role ? (
                     <div>
                       <span className="rounded-full bg-[hsl(var(--muted))] px-2 py-1 text-xs capitalize">
-                        {col.detected_role} · {Math.round(col.confidence * 100)}%
+                        {ROLE_OPTIONS.find((option) => option.value === col.detected_role)?.label ?? col.detected_role} · {Math.round(col.confidence * 100)}%
                       </span>
                       {otherCandidates.length > 0 && (
                         <p className="mt-1 text-xs text-[hsl(var(--muted-foreground))]">

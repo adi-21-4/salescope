@@ -36,7 +36,12 @@ def _to_numeric(series: pd.Series) -> pd.Series:
     return pd.to_numeric(stripped, errors="coerce")
 
 
+def _to_clean_text(series: pd.Series) -> pd.Series:
+    return series.map(lambda value: None if pd.isna(value) or not str(value).strip() else str(value).strip())
+
+
 def _row_hash(row: pd.Series) -> str:
+    unit_cost = None if pd.isna(row["unit_cost"]) else row["unit_cost"]
     key = "|".join(
         [
             row["sale_date"].date().isoformat(),
@@ -44,6 +49,9 @@ def _row_hash(row: pd.Series) -> str:
             str(row["quantity"]),
             str(row["unit_price"]),
             str(row["location"]).strip().lower(),
+            str(row["agent"]).strip().lower(),
+            str(row["customer_id"]).strip().lower(),
+            str(unit_cost),
             str(row["payment_method"]).strip().lower(),
         ]
     )
@@ -56,7 +64,7 @@ def clean_dataframe(
     included_status_values: list[str] | None = None,
 ) -> CleaningResult:
     """mapping: {raw_column_name: canonical_role}, role in
-    {date, product, quantity, price, line_total, category, status, location,
+    {date, product, quantity, price, unit_cost, line_total, category, status, location, agent, customer_id,
     payment_method, ignore}. Exactly one of price/line_total is required (not
     both). quantity is optional -- defaults every row to 1 unit when unmapped
     (service/booking data often has no separate quantity column).
@@ -95,7 +103,13 @@ def clean_dataframe(
         df[role_to_col["category"]].astype(str).str.strip() if "category" in role_to_col else None
     )
     working["location"] = (
-        df[role_to_col["location"]].astype(str).str.strip() if "location" in role_to_col else None
+        _to_clean_text(df[role_to_col["location"]]) if "location" in role_to_col else None
+    )
+    working["agent"] = (
+        _to_clean_text(df[role_to_col["agent"]]) if "agent" in role_to_col else None
+    )
+    working["customer_id"] = (
+        _to_clean_text(df[role_to_col["customer_id"]]) if "customer_id" in role_to_col else None
     )
     working["payment_method"] = (
         df[role_to_col["payment_method"]].astype(str).str.strip() if "payment_method" in role_to_col else None
@@ -115,6 +129,7 @@ def clean_dataframe(
         working["unit_price"] = derived_unit_price.replace([float("inf"), float("-inf")], None)
     else:
         working["unit_price"] = _to_numeric(df[role_to_col["price"]])
+    working["unit_cost"] = _to_numeric(df[role_to_col["unit_cost"]]) if "unit_cost" in role_to_col else None
     if "status" in role_to_col:
         working["status_value"] = df[role_to_col["status"]].astype(str).str.strip()
 

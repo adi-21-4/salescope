@@ -43,7 +43,7 @@ export default function ProductsBarChart({ data, emptyMessage }: Props) {
           labelStyle={tooltipLabelStyle}
           formatter={(value) => [currency.format(Number(value)), "Revenue"]}
         />
-        <Bar dataKey="revenue" fill={SEQUENTIAL_COLOR} radius={[0, 4, 4, 0]} barSize={16} />
+        <Bar dataKey="revenue" fill={SEQUENTIAL_COLOR} radius={[0, 4, 4, 0]} barSize={16} isAnimationActive="auto" animationBegin={50} animationDuration={650} animationEasing="ease-out" />
       </BarChart>
     </ResponsiveContainer>
   );

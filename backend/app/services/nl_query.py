@@ -18,16 +18,18 @@ def build_schema_description(df: pd.DataFrame) -> dict:
     example values for the low-cardinality ones. Never the raw rows."""
     if df.empty:
         return {
-            "canonical_columns": ["date", "product", "category", "location", "payment_method"],
+            "canonical_columns": ["date", "product", "category", "location", "agent", "payment_method"],
             "available_categories": [],
             "available_locations": [],
+            "available_agents": [],
             "available_payment_methods": [],
             "date_range": None,
         }
     return {
-        "canonical_columns": ["date", "product", "category", "location", "payment_method"],
+        "canonical_columns": ["date", "product", "category", "location", "agent", "payment_method"],
         "available_categories": _distinct_values(df, "category"),
         "available_locations": _distinct_values(df, "location"),
+        "available_agents": _distinct_values(df, "agent"),
         "available_payment_methods": _distinct_values(df, "payment_method"),
         "date_range": {
             "start": df["sale_date"].min().date().isoformat(),

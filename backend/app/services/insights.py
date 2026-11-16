@@ -30,13 +30,46 @@ def build_summary(df: pd.DataFrame) -> dict:
             "seasonal_avg_revenue": {},
             "category_breakdown": [],
             "location_breakdown": [],
+            "agent_performance": [],
             "payment_method_breakdown": [],
+            "profit_summary": None,
+            "customer_retention_summary": None,
         }
 
     revenue_weekly = aggregates.revenue_over_time(df, granularity="week")
     top_bottom = aggregates.top_bottom_products(df, n=5)
     day_of_week = aggregates.day_of_week_trends(df)
     seasonal = aggregates.seasonal_trends(df)
+
+    profit_summary = None
+    if "unit_cost" in df.columns and "gross_profit" in df.columns:
+        cost_rows = df.dropna(subset=["unit_cost", "gross_profit"])
+        revenue = float(cost_rows["revenue"].sum()) if not cost_rows.empty else 0.0
+        if revenue > 0:
+            profit_summary = {
+                "gross_profit": round(float(cost_rows["gross_profit"].sum()), 2),
+                "gross_margin_pct": round(float(cost_rows["gross_profit"].sum()) / revenue * 100, 1),
+                "cost_coverage_pct": round(len(cost_rows) / len(df) * 100, 1),
+            }
+
+    retention_summary = None
+    if "customer_id" in df.columns:
+        customer_rows = df.dropna(subset=["customer_id"]).copy()
+        customer_rows = customer_rows[customer_rows["customer_id"].astype(str).str.strip() != ""]
+        if not customer_rows.empty:
+            customer_rows["month"] = customer_rows["sale_date"].dt.to_period("M")
+            customer_rows["first_month"] = customer_rows.groupby("customer_id")["month"].transform("min")
+            latest_complete_month = customer_rows["month"].max() - 1
+            complete = customer_rows[customer_rows["first_month"] < latest_complete_month]
+            if not complete.empty:
+                cohort_sizes = complete.groupby("first_month")["customer_id"].nunique()
+                first_repeat = complete[complete["month"] == complete["first_month"] + 1]
+                rates = [
+                    round(float(first_repeat[first_repeat["first_month"] == cohort]["customer_id"].nunique()) / size * 100, 1)
+                    for cohort, size in cohort_sizes.items() if size > 0
+                ]
+                if rates:
+                    retention_summary = {"completed_cohorts": len(rates), "average_month_one_retention_pct": round(sum(rates) / len(rates), 1)}
 
     return {
         "date_range": {"start": stats["date_range_start"], "end": stats["date_range_end"]},
@@ -50,7 +83,10 @@ def build_summary(df: pd.DataFrame) -> dict:
         "seasonal_avg_revenue": {m["month"]: m["avg_revenue"] for m in seasonal},
         "category_breakdown": aggregates.category_breakdown(df),
         "location_breakdown": aggregates.location_breakdown(df),
+        "agent_performance": aggregates.agent_performance(df),
         "payment_method_breakdown": aggregates.payment_method_breakdown(df),
+        "profit_summary": profit_summary,
+        "customer_retention_summary": retention_summary,
     }
 
 

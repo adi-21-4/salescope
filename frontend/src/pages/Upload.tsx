@@ -51,7 +51,7 @@ export default function Upload() {
   }
 
   return (
-    <div className="mx-auto max-w-3xl space-y-6">
+    <div className="flow-page-enter mx-auto max-w-3xl space-y-6">
       <Card>
         <CardHeader>
           <CardTitle>Upload sales data</CardTitle>
@@ -87,8 +87,8 @@ export default function Upload() {
             <div className="mt-4">
               <div className="h-2 w-full overflow-hidden rounded-full bg-[hsl(var(--muted))]">
                 <div
-                  className="h-full bg-[hsl(var(--primary))] transition-all"
-                  style={{ width: `${progress}%` }}
+                  className="h-full origin-left bg-[hsl(var(--primary))] transition-transform duration-300 ease-out"
+                  style={{ transform: `scaleX(${progress / 100})` }}
                 />
               </div>
               <p className="mt-1 text-sm text-[hsl(var(--muted-foreground))]">Uploading… {progress}%</p>

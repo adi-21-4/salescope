@@ -1,0 +1,901 @@
+﻿Sale Date,Product,Quantity,Unit Price,Unit Cost,Category,Store Location,Sales Agent,Customer ID,Payment Method
+2026-05-20,Citrus Hand Wash,1,426.89,178.22,Personal Care,Koramangala,Asha,CUST-0034,Card
+2026-05-20,Citrus Hand Wash,2,404.81,170.78,Personal Care,Indiranagar,Kabir,CUST-0009,UPI
+2026-05-20,Everyday Tote,1,687.95,331.64,Accessories,Indiranagar,Kabir,CUST-0056,Cash
+2026-05-20,Everyday Tote,1,685.05,352.8,Accessories,Indiranagar,Kabir,CUST-0046,UPI
+2026-05-20,Ceramic Mug,1,505.53,223.84,Homeware,Koramangala,Rohan,CUST-0032,UPI
+2026-05-21,Canvas Backpack,1,1965.94,846.84,Accessories,Koramangala,Asha,CUST-0017,Card
+2026-05-21,Citrus Hand Wash,1,554.38,162.24,Personal Care,Whitefield,Kabir,CUST-0031,Cash
+2026-05-21,Desk Organizer,3,1034.12,405.04,Stationery,Indiranagar,Kabir,CUST-0035,Card
+2026-05-21,Canvas Backpack,1,1994.93,861.57,Accessories,Koramangala,Kabir,CUST-0040,Card
+2026-05-21,Citrus Hand Wash,2,500.21,158.87,Personal Care,Koramangala,Meera,CUST-0020,Card
+2026-05-22,Everyday Tote,1,775.54,329.82,Accessories,Koramangala,Asha,CUST-0045,Card
+2026-05-22,Desk Organizer,1,874.26,403.79,Stationery,Indiranagar,Meera,CUST-0047,Card
+2026-05-22,Citrus Hand Wash,1,481.6,161.95,Personal Care,Whitefield,Kabir,CUST-0021,UPI
+2026-05-22,Citrus Hand Wash,1,468.0,158.25,Personal Care,Koramangala,Asha,CUST-0064,Cash
+2026-05-22,Citrus Hand Wash,2,456.29,160.32,Personal Care,Indiranagar,Meera,CUST-0009,Card
+2026-05-23,Botanical Lotion,1,951.84,307.12,Personal Care,Indiranagar,Kabir,CUST-0002,Cash
+2026-05-23,Everyday Tote,2,976.7,350.79,Accessories,Indiranagar,Meera,CUST-0031,UPI
+2026-05-23,Ceramic Mug,1,776.48,255.14,Homeware,Indiranagar,Meera,CUST-0034,Cash
+2026-05-23,Everyday Tote,1,1078.52,366.08,Accessories,Whitefield,Rohan,CUST-0078,Card
+2026-05-23,Ceramic Mug,1,774.97,242.86,Homeware,Koramangala,Meera,CUST-0042,UPI
+2026-05-24,Citrus Hand Wash,2,476.99,154.48,Personal Care,Koramangala,Kabir,CUST-0014,Card
+2026-05-24,Canvas Backpack,1,1889.81,857.84,Accessories,Koramangala,Kabir,CUST-0036,Bank Transfer
+2026-05-24,Desk Organizer,3,994.48,437.69,Stationery,Whitefield,Meera,CUST-0036,Card
+2026-05-24,Ceramic Mug,1,619.55,234.75,Homeware,Indiranagar,Meera,CUST-0026,Cash
+2026-05-24,Citrus Hand Wash,1,488.35,165.75,Personal Care,Koramangala,Meera,CUST-0009,UPI
+2026-05-25,Canvas Backpack,1,1571.12,911.63,Accessories,Indiranagar,Asha,CUST-0031,Cash
+2026-05-25,Everyday Tote,1,669.92,348.7,Accessories,Koramangala,Kabir,CUST-0015,Card
+2026-05-25,Everyday Tote,1,715.7,372.18,Accessories,Koramangala,Tara,CUST-0011,Card
+2026-05-25,Ceramic Mug,2,494.78,238.09,Homeware,Koramangala,Meera,CUST-0083,Bank Transfer
+2026-05-25,Desk Organizer,1,760.78,412.83,Stationery,Koramangala,Meera,CUST-0055,UPI
+2026-05-26,Weekly Planner,1,520.29,163.94,Stationery,Koramangala,Tara,CUST-0075,Card
+2026-05-26,Canvas Backpack,1,1866.84,906.96,Accessories,Indiranagar,Meera,CUST-0025,Card
+2026-05-26,Weekly Planner,1,545.38,176.05,Stationery,Indiranagar,Rohan,CUST-0027,Cash
+2026-05-26,Ceramic Mug,2,602.61,241.84,Homeware,Indiranagar,Asha,CUST-0001,UPI
+2026-05-26,Ceramic Mug,2,647.01,244.35,Homeware,Whitefield,Tara,CUST-0016,Bank Transfer
+2026-05-27,Ceramic Mug,1,472.07,226.62,Homeware,Indiranagar,Tara,CUST-0011,Cash
+2026-05-27,Canvas Backpack,1,1409.83,808.45,Accessories,Koramangala,Meera,CUST-0023,Cash
+2026-05-27,Ceramic Mug,2,498.35,234.59,Homeware,Koramangala,Rohan,CUST-0041,UPI
+2026-05-27,Citrus Hand Wash,2,400.37,164.73,Personal Care,Whitefield,Meera,CUST-0040,UPI
+2026-05-27,Canvas Backpack,1,1573.85,969.23,Accessories,Koramangala,Tara,CUST-0024,UPI
+2026-05-28,Desk Organizer,2,773.33,429.41,Stationery,Koramangala,Rohan,CUST-0012,UPI
+2026-05-28,Desk Organizer,1,835.63,441.59,Stationery,Koramangala,Rohan,CUST-0029,UPI
+2026-05-28,Ceramic Mug,2,545.34,254.19,Homeware,Whitefield,Kabir,CUST-0015,Cash
+2026-05-28,Desk Organizer,1,816.98,419.05,Stationery,Whitefield,Asha,CUST-0054,Card
+2026-05-28,Weekly Planner,1,476.52,184.17,Stationery,Koramangala,Asha,CUST-0033,UPI
+2026-05-29,Weekly Planner,2,608.21,186.08,Stationery,Koramangala,Asha,CUST-0079,UPI
+2026-05-29,Desk Organizer,1,1061.77,431.57,Stationery,Koramangala,Rohan,CUST-0047,UPI
+2026-05-29,Canvas Backpack,1,2106.33,905.18,Accessories,Indiranagar,Rohan,CUST-0024,UPI
+2026-05-29,Weekly Planner,1,569.89,165.14,Stationery,Whitefield,Meera,CUST-0003,Card
+2026-05-29,Ceramic Mug,2,646.14,216.91,Homeware,Koramangala,Rohan,CUST-0034,Cash
+2026-05-30,Canvas Backpack,2,2635.18,924.84,Accessories,Koramangala,Meera,CUST-0043,UPI
+2026-05-30,Citrus Hand Wash,1,634.53,148.4,Personal Care,Whitefield,Meera,CUST-0034,Cash
+2026-05-30,Everyday Tote,1,1151.7,361.61,Accessories,Koramangala,Meera,CUST-0038,Card
+2026-05-30,Ceramic Mug,1,893.76,241.15,Homeware,Indiranagar,Kabir,CUST-0038,UPI
+2026-05-30,Desk Organizer,1,1367.06,431.47,Stationery,Koramangala,Tara,CUST-0011,UPI
+2026-05-31,Everyday Tote,1,978.7,375.19,Accessories,Indiranagar,Rohan,CUST-0025,Card
+2026-05-31,Citrus Hand Wash,1,554.81,167.55,Personal Care,Indiranagar,Asha,CUST-0011,UPI
+2026-05-31,Everyday Tote,2,974.74,368.04,Accessories,Indiranagar,Meera,CUST-0049,Bank Transfer
+2026-05-31,Everyday Tote,1,987.11,360.59,Accessories,Koramangala,Meera,CUST-0048,UPI
+2026-05-31,Everyday Tote,2,930.47,349.93,Accessories,Koramangala,Tara,CUST-0012,Card
+2026-06-01,Desk Organizer,1,682.75,414.7,Stationery,Indiranagar,Meera,CUST-0044,UPI
+2026-06-01,Botanical Lotion,2,554.51,310.27,Personal Care,Koramangala,Asha,CUST-0043,Card
+2026-06-01,Linen Throw,2,1685.33,1279.97,Homeware,Indiranagar,Tara,CUST-0013,UPI
+2026-06-01,Desk Organizer,2,665.38,394.34,Stationery,Indiranagar,Meera,CUST-0003,UPI
+2026-06-01,Ceramic Mug,2,428.51,219.29,Homeware,Whitefield,Meera,CUST-0035,Card
+2026-06-02,Canvas Backpack,1,1553.55,934.46,Accessories,Indiranagar,Rohan,CUST-0037,Card
+2026-06-02,Citrus Hand Wash,1,384.66,164.52,Personal Care,Indiranagar,Asha,CUST-0036,UPI
+2026-06-02,Desk Organizer,1,831.26,430.81,Stationery,Indiranagar,Kabir,CUST-0058,UPI
+2026-06-02,Canvas Backpack,2,1497.46,891.68,Accessories,Koramangala,Asha,CUST-0038,UPI
+2026-06-02,Ceramic Mug,2,511.35,245.34,Homeware,Whitefield,Asha,CUST-0005,Card
+2026-06-03,Desk Organizer,2,963.57,438.7,Stationery,Koramangala,Meera,CUST-0036,Cash
+2026-06-03,Desk Organizer,1,1008.27,428.9,Stationery,Indiranagar,Tara,CUST-0078,Card
+2026-06-03,Botanical Lotion,1,817.93,330.5,Personal Care,Indiranagar,Asha,CUST-0047,UPI
+2026-06-03,Desk Organizer,3,1011.02,440.57,Stationery,Koramangala,Meera,CUST-0039,Bank Transfer
+2026-06-03,Ceramic Mug,2,653.91,233.41,Homeware,Koramangala,Rohan,CUST-0011,Card
+2026-06-04,Everyday Tote,1,759.37,344.46,Accessories,Koramangala,Tara,CUST-0016,Card
+2026-06-04,Citrus Hand Wash,1,436.6,162.96,Personal Care,Whitefield,Asha,CUST-0019,UPI
+2026-06-04,Everyday Tote,1,768.85,342.72,Accessories,Koramangala,Kabir,CUST-0047,Card
+2026-06-04,Ceramic Mug,1,592.37,238.62,Homeware,Whitefield,Meera,CUST-0050,UPI
+2026-06-04,Desk Organizer,1,898.91,428.96,Stationery,Indiranagar,Kabir,CUST-0026,Card
+2026-06-05,Botanical Lotion,2,833.15,327.53,Personal Care,Koramangala,Asha,CUST-0048,Bank Transfer
+2026-06-05,Citrus Hand Wash,1,480.48,159.93,Personal Care,Koramangala,Meera,CUST-0054,UPI
+2026-06-05,Ceramic Mug,1,641.57,243.6,Homeware,Whitefield,Asha,CUST-0013,Card
+2026-06-05,Ceramic Mug,1,653.95,230.61,Homeware,Indiranagar,Meera,CUST-0027,UPI
+2026-06-05,Citrus Hand Wash,1,506.88,163.88,Personal Care,Koramangala,Asha,CUST-0086,UPI
+2026-06-06,Weekly Planner,3,558.68,161.96,Stationery,Koramangala,Rohan,CUST-0034,Card
+2026-06-06,Desk Organizer,1,1087.02,471.37,Stationery,Indiranagar,Kabir,CUST-0010,UPI
+2026-06-06,Weekly Planner,1,615.97,181.28,Stationery,Koramangala,Rohan,CUST-0021,Card
+2026-06-06,Weekly Planner,1,616.74,186.99,Stationery,Indiranagar,Meera,CUST-0013,UPI
+2026-06-06,Everyday Tote,2,890.33,356.01,Accessories,Koramangala,Asha,CUST-0054,UPI
+2026-06-07,Everyday Tote,1,743.96,358.09,Accessories,Koramangala,Asha,CUST-0022,Card
+2026-06-07,Ceramic Mug,1,521.08,222.77,Homeware,Koramangala,Meera,CUST-0055,Card
+2026-06-07,Canvas Backpack,2,1537.34,812.56,Accessories,Koramangala,Asha,CUST-0039,UPI
+2026-06-07,Linen Throw,2,2061.29,1331.78,Homeware,Whitefield,Rohan,CUST-0022,Cash
+2026-06-07,Ceramic Mug,2,570.48,246.95,Homeware,Whitefield,Tara,CUST-0052,UPI
+2026-06-08,Ceramic Mug,2,533.97,249.73,Homeware,Indiranagar,Asha,CUST-0005,Card
+2026-06-08,Botanical Lotion,1,672.79,319.08,Personal Care,Indiranagar,Rohan,CUST-0039,UPI
+2026-06-08,Weekly Planner,1,435.86,160.04,Stationery,Indiranagar,Asha,CUST-0033,Card
+2026-06-08,Desk Organizer,1,828.24,434.87,Stationery,Indiranagar,Tara,CUST-0031,UPI
+2026-06-08,Linen Throw,2,1981.29,1357.45,Homeware,Koramangala,Kabir,CUST-0011,Cash
+2026-06-09,Desk Organizer,1,919.42,416.9,Stationery,Indiranagar,Asha,CUST-0018,Cash
+2026-06-09,Canvas Backpack,2,1815.68,878.69,Accessories,Indiranagar,Tara,CUST-0041,Card
+2026-06-09,Canvas Backpack,2,1801.86,926.7,Accessories,Indiranagar,Tara,CUST-0044,Card
+2026-06-09,Ceramic Mug,1,617.88,238.35,Homeware,Whitefield,Tara,CUST-0027,Card
+2026-06-09,Botanical Lotion,1,756.43,316.92,Personal Care,Whitefield,Tara,CUST-0055,UPI
+2026-06-10,Botanical Lotion,2,651.05,318.58,Personal Care,Indiranagar,Asha,CUST-0031,Card
+2026-06-10,Everyday Tote,1,711.45,358.08,Accessories,Whitefield,Rohan,CUST-0036,Cash
+2026-06-10,Weekly Planner,1,473.85,186.22,Stationery,Koramangala,Meera,CUST-0028,UPI
+2026-06-10,Botanical Lotion,1,648.41,313.95,Personal Care,Indiranagar,Asha,CUST-0018,UPI
+2026-06-10,Citrus Hand Wash,1,415.81,173.75,Personal Care,Indiranagar,Kabir,CUST-0024,Card
+2026-06-11,Ceramic Mug,3,470.09,216.22,Homeware,Indiranagar,Tara,CUST-0022,Cash
+2026-06-11,Everyday Tote,1,682.33,365.54,Accessories,Indiranagar,Kabir,CUST-0018,Cash
+2026-06-11,Ceramic Mug,1,473.7,227.06,Homeware,Indiranagar,Rohan,CUST-0028,Card
+2026-06-11,Linen Throw,2,1966.8,1346.9,Homeware,Koramangala,Asha,CUST-0033,UPI
+2026-06-11,Everyday Tote,1,674.48,356.06,Accessories,Whitefield,Rohan,CUST-0020,UPI
+2026-06-12,Everyday Tote,1,1058.95,354.31,Accessories,Indiranagar,Asha,CUST-0010,Card
+2026-06-12,Botanical Lotion,1,935.52,311.17,Personal Care,Indiranagar,Asha,CUST-0013,UPI
+2026-06-12,Everyday Tote,1,1038.92,363.46,Accessories,Koramangala,Kabir,CUST-0006,Card
+2026-06-12,Citrus Hand Wash,2,568.03,154.55,Personal Care,Indiranagar,Asha,CUST-0053,UPI
+2026-06-12,Everyday Tote,2,996.82,336.86,Accessories,Koramangala,Asha,CUST-0008,UPI
+2026-06-13,Weekly Planner,1,672.71,178.4,Stationery,Whitefield,Meera,CUST-0018,UPI
+2026-06-13,Weekly Planner,1,646.71,170.23,Stationery,Whitefield,Rohan,CUST-0064,Cash
+2026-06-13,Citrus Hand Wash,1,574.48,163.83,Personal Care,Whitefield,Meera,CUST-0052,Card
+2026-06-13,Desk Organizer,3,1197.44,470.79,Stationery,Koramangala,Kabir,CUST-0041,UPI
+2026-06-13,Weekly Planner,1,677.73,178.28,Stationery,Koramangala,Meera,CUST-0035,Cash
+2026-06-14,Citrus Hand Wash,1,602.41,172.99,Personal Care,Indiranagar,Kabir,CUST-0044,UPI
+2026-06-14,Everyday Tote,1,982.56,353.89,Accessories,Indiranagar,Meera,CUST-0036,Card
+2026-06-14,Everyday Tote,1,992.87,352.48,Accessories,Whitefield,Meera,CUST-0027,Card
+2026-06-14,Botanical Lotion,1,892.35,313.14,Personal Care,Indiranagar,Asha,CUST-0039,Cash
+2026-06-14,Weekly Planner,2,604.37,161.18,Stationery,Whitefield,Rohan,CUST-0045,Card
+2026-06-15,Desk Organizer,1,733.47,462.06,Stationery,Indiranagar,Tara,CUST-0016,Cash
+2026-06-15,Weekly Planner,1,380.32,160.53,Stationery,Whitefield,Tara,CUST-0036,UPI
+2026-06-15,Ceramic Mug,1,458.04,244.37,Homeware,Indiranagar,Meera,CUST-0015,UPI
+2026-06-15,Canvas Backpack,1,1327.9,844.4,Accessories,Whitefield,Meera,CUST-0015,Card
+2026-06-15,Everyday Tote,1,649.27,355.43,Accessories,Indiranagar,Meera,CUST-0053,UPI
+2026-06-16,Ceramic Mug,3,561.81,244.97,Homeware,Whitefield,Meera,CUST-0046,UPI
+2026-06-16,Weekly Planner,1,501.97,171.83,Stationery,Indiranagar,Kabir,CUST-0037,Card
+2026-06-16,Weekly Planner,1,508.59,186.37,Stationery,Whitefield,Tara,CUST-0089,Card
+2026-06-16,Everyday Tote,1,813.79,375.5,Accessories,Indiranagar,Rohan,CUST-0030,Card
+2026-06-16,Everyday Tote,1,729.33,322.03,Accessories,Whitefield,Meera,CUST-0018,Bank Transfer
+2026-06-17,Botanical Lotion,2,885.11,311.52,Personal Care,Koramangala,Asha,CUST-0052,UPI
+2026-06-17,Ceramic Mug,1,645.65,223.3,Homeware,Koramangala,Kabir,CUST-0086,Bank Transfer
+2026-06-17,Desk Organizer,1,997.36,411.38,Stationery,Koramangala,Meera,CUST-0001,UPI
+2026-06-17,Canvas Backpack,1,1901.3,842.26,Accessories,Koramangala,Rohan,CUST-0041,UPI
+2026-06-17,Canvas Backpack,1,2008.02,842.47,Accessories,Indiranagar,Asha,CUST-0029,Card
+2026-06-18,Linen Throw,1,2415.55,1418.21,Homeware,Koramangala,Asha,CUST-0033,UPI
+2026-06-18,Everyday Tote,1,803.61,341.62,Accessories,Whitefield,Kabir,CUST-0052,Cash
+2026-06-18,Canvas Backpack,2,1753.61,863.61,Accessories,Koramangala,Kabir,CUST-0001,Bank Transfer
+2026-06-18,Botanical Lotion,3,755.07,311.26,Personal Care,Koramangala,Tara,CUST-0011,UPI
+2026-06-18,Ceramic Mug,1,593.2,227.08,Homeware,Indiranagar,Asha,CUST-0043,Card
+2026-06-19,Botanical Lotion,1,910.91,290.3,Personal Care,Koramangala,Tara,CUST-0050,Cash
+2026-06-19,Citrus Hand Wash,2,623.11,176.6,Personal Care,Koramangala,Kabir,CUST-0047,Card
+2026-06-19,Canvas Backpack,2,2355.66,887.54,Accessories,Whitefield,Asha,CUST-0022,UPI
+2026-06-19,Citrus Hand Wash,1,582.98,154.06,Personal Care,Koramangala,Asha,CUST-0020,UPI
+2026-06-19,Citrus Hand Wash,2,564.84,155.96,Personal Care,Whitefield,Meera,CUST-0013,UPI
+2026-06-20,Ceramic Mug,1,915.05,236.44,Homeware,Whitefield,Kabir,CUST-0029,UPI
+2026-06-20,Weekly Planner,1,776.8,178.03,Stationery,Koramangala,Kabir,CUST-0017,Card
+2026-06-20,Everyday Tote,2,1266.54,384.85,Accessories,Whitefield,Asha,CUST-0006,Card
+2026-06-20,Weekly Planner,2,763.25,174.41,Stationery,Indiranagar,Meera,CUST-0023,Card
+2026-06-20,Everyday Tote,2,1161.33,345.0,Accessories,Indiranagar,Tara,CUST-0013,UPI
+2026-06-21,Citrus Hand Wash,2,471.17,154.57,Personal Care,Whitefield,Asha,CUST-0038,Cash
+2026-06-21,Everyday Tote,1,853.01,334.03,Accessories,Whitefield,Kabir,CUST-0014,Card
+2026-06-21,Everyday Tote,1,865.5,363.87,Accessories,Koramangala,Kabir,CUST-0036,Bank Transfer
+2026-06-21,Desk Organizer,1,940.05,410.61,Stationery,Indiranagar,Tara,CUST-0035,UPI
+2026-06-21,Ceramic Mug,2,604.69,212.8,Homeware,Koramangala,Tara,CUST-0009,UPI
+2026-06-22,Ceramic Mug,1,614.51,256.36,Homeware,Indiranagar,Tara,CUST-0048,UPI
+2026-06-22,Ceramic Mug,2,559.07,229.72,Homeware,Indiranagar,Asha,CUST-0016,UPI
+2026-06-22,Citrus Hand Wash,1,470.03,174.46,Personal Care,Koramangala,Asha,CUST-0055,Card
+2026-06-22,Ceramic Mug,1,585.25,223.39,Homeware,Whitefield,Kabir,CUST-0047,Card
+2026-06-22,Linen Throw,2,2159.28,1277.55,Homeware,Indiranagar,Asha,CUST-0011,Cash
+2026-06-23,Botanical Lotion,1,732.32,311.21,Personal Care,Koramangala,Asha,CUST-0012,UPI
+2026-06-23,Desk Organizer,1,891.64,406.53,Stationery,Indiranagar,Tara,CUST-0049,Cash
+2026-06-23,Canvas Backpack,1,1859.37,914.79,Accessories,Indiranagar,Tara,CUST-0019,UPI
+2026-06-23,Botanical Lotion,1,724.95,295.74,Personal Care,Indiranagar,Meera,CUST-0015,UPI
+2026-06-23,Ceramic Mug,1,630.21,239.07,Homeware,Koramangala,Asha,CUST-0053,UPI
+2026-06-24,Everyday Tote,1,688.03,366.52,Accessories,Whitefield,Tara,CUST-0043,Card
+2026-06-24,Citrus Hand Wash,1,407.17,166.7,Personal Care,Koramangala,Tara,CUST-0021,Card
+2026-06-24,Everyday Tote,1,719.44,374.46,Accessories,Koramangala,Rohan,CUST-0086,Card
+2026-06-24,Botanical Lotion,1,622.72,322.64,Personal Care,Indiranagar,Rohan,CUST-0012,UPI
+2026-06-24,Everyday Tote,2,645.62,333.53,Accessories,Indiranagar,Rohan,CUST-0009,Card
+2026-06-25,Citrus Hand Wash,1,397.03,169.54,Personal Care,Koramangala,Kabir,CUST-0028,Cash
+2026-06-25,Botanical Lotion,1,631.25,306.36,Personal Care,Whitefield,Asha,CUST-0019,Cash
+2026-06-25,Desk Organizer,1,816.79,423.68,Stationery,Indiranagar,Tara,CUST-0012,Bank Transfer
+2026-06-25,Weekly Planner,1,430.56,163.43,Stationery,Indiranagar,Kabir,CUST-0046,Bank Transfer
+2026-06-25,Everyday Tote,1,699.66,345.18,Accessories,Indiranagar,Kabir,CUST-0035,Bank Transfer
+2026-06-26,Desk Organizer,1,968.79,419.41,Stationery,Indiranagar,Meera,CUST-0039,Cash
+2026-06-26,Canvas Backpack,1,1950.81,883.14,Accessories,Koramangala,Asha,CUST-0020,Card
+2026-06-26,Desk Organizer,1,1020.12,436.75,Stationery,Koramangala,Meera,CUST-0050,Cash
+2026-06-26,Canvas Backpack,1,1831.88,904.38,Accessories,Indiranagar,Kabir,CUST-0030,UPI
+2026-06-26,Canvas Backpack,1,1916.51,905.96,Accessories,Koramangala,Asha,CUST-0036,Bank Transfer
+2026-06-27,Weekly Planner,1,548.18,167.35,Stationery,Indiranagar,Asha,CUST-0069,UPI
+2026-06-27,Everyday Tote,1,847.9,348.96,Accessories,Koramangala,Asha,CUST-0038,UPI
+2026-06-27,Weekly Planner,1,562.26,177.35,Stationery,Koramangala,Kabir,CUST-0038,UPI
+2026-06-27,Weekly Planner,1,526.04,163.22,Stationery,Whitefield,Tara,CUST-0025,UPI
+2026-06-27,Ceramic Mug,1,611.15,222.92,Homeware,Koramangala,Asha,CUST-0013,UPI
+2026-06-28,Weekly Planner,1,456.47,162.52,Stationery,Indiranagar,Tara,CUST-0002,Card
+2026-06-28,Botanical Lotion,1,664.07,312.11,Personal Care,Koramangala,Rohan,CUST-0020,Bank Transfer
+2026-06-28,Everyday Tote,1,707.6,337.85,Accessories,Koramangala,Meera,CUST-0016,UPI
+2026-06-28,Botanical Lotion,1,665.57,297.7,Personal Care,Indiranagar,Asha,CUST-0013,UPI
+2026-06-28,Botanical Lotion,1,709.54,338.59,Personal Care,Koramangala,Kabir,CUST-0019,Card
+2026-06-29,Canvas Backpack,1,1659.84,895.14,Accessories,Indiranagar,Meera,CUST-0029,Card
+2026-06-29,Linen Throw,1,2063.19,1282.11,Homeware,Indiranagar,Asha,CUST-0048,Bank Transfer
+2026-06-29,Ceramic Mug,2,590.01,251.58,Homeware,Indiranagar,Kabir,CUST-0006,Cash
+2026-06-29,Everyday Tote,1,802.37,363.71,Accessories,Koramangala,Kabir,CUST-0004,UPI
+2026-06-29,Botanical Lotion,1,660.41,305.53,Personal Care,Koramangala,Rohan,CUST-0005,Card
+2026-06-30,Weekly Planner,2,525.82,190.43,Stationery,Indiranagar,Meera,CUST-0033,Card
+2026-06-30,Citrus Hand Wash,1,465.8,168.98,Personal Care,Whitefield,Rohan,CUST-0054,UPI
+2026-06-30,Citrus Hand Wash,1,434.44,164.29,Personal Care,Whitefield,Rohan,CUST-0048,UPI
+2026-06-30,Canvas Backpack,2,1661.87,876.85,Accessories,Whitefield,Asha,CUST-0027,Card
+2026-06-30,Everyday Tote,1,783.85,370.32,Accessories,Indiranagar,Meera,CUST-0047,Card
+2026-07-01,Citrus Hand Wash,2,434.74,163.48,Personal Care,Koramangala,Kabir,CUST-0007,Card
+2026-07-01,Citrus Hand Wash,1,411.29,155.21,Personal Care,Indiranagar,Asha,CUST-0015,Card
+2026-07-01,Linen Throw,1,2093.6,1307.23,Homeware,Koramangala,Rohan,CUST-0043,UPI
+2026-07-01,Citrus Hand Wash,1,436.42,178.69,Personal Care,Koramangala,Rohan,CUST-0061,Cash
+2026-07-01,Linen Throw,1,2018.42,1363.31,Homeware,Whitefield,Asha,CUST-0031,Bank Transfer
+2026-07-02,Linen Throw,1,2824.22,1350.49,Homeware,Indiranagar,Rohan,CUST-0011,UPI
+2026-07-02,Desk Organizer,2,1069.76,400.89,Stationery,Whitefield,Kabir,CUST-0044,Card
+2026-07-02,Citrus Hand Wash,1,541.07,152.39,Personal Care,Koramangala,Meera,CUST-0004,Card
+2026-07-02,Botanical Lotion,1,942.16,332.9,Personal Care,Whitefield,Asha,CUST-0029,Card
+2026-07-02,Ceramic Mug,1,732.45,233.94,Homeware,Koramangala,Meera,CUST-0043,Bank Transfer
+2026-07-03,Linen Throw,3,2630.53,1298.79,Homeware,Koramangala,Meera,CUST-0029,UPI
+2026-07-03,Ceramic Mug,1,675.47,238.69,Homeware,Koramangala,Asha,CUST-0027,Card
+2026-07-03,Linen Throw,1,2774.1,1365.52,Homeware,Indiranagar,Meera,CUST-0050,Bank Transfer
+2026-07-03,Botanical Lotion,1,881.23,330.52,Personal Care,Indiranagar,Rohan,CUST-0042,Card
+2026-07-03,Canvas Backpack,2,2147.65,931.41,Accessories,Indiranagar,Rohan,CUST-0035,Card
+2026-07-04,Botanical Lotion,3,1113.09,331.62,Personal Care,Koramangala,Rohan,CUST-0006,UPI
+2026-07-04,Ceramic Mug,2,816.0,220.35,Homeware,Koramangala,Asha,CUST-0067,UPI
+2026-07-04,Citrus Hand Wash,2,683.08,174.63,Personal Care,Whitefield,Tara,CUST-0033,Cash
+2026-07-04,Desk Organizer,2,1385.07,448.04,Stationery,Indiranagar,Tara,CUST-0046,UPI
+2026-07-04,Weekly Planner,2,746.97,174.75,Stationery,Koramangala,Rohan,CUST-0037,Card
+2026-07-05,Botanical Lotion,1,661.9,285.51,Personal Care,Whitefield,Kabir,CUST-0045,UPI
+2026-07-05,Ceramic Mug,1,571.15,254.42,Homeware,Indiranagar,Kabir,CUST-0009,Card
+2026-07-05,Citrus Hand Wash,3,419.86,157.9,Personal Care,Indiranagar,Rohan,CUST-0007,Cash
+2026-07-05,Ceramic Mug,2,585.15,257.86,Homeware,Indiranagar,Asha,CUST-0027,UPI
+2026-07-05,Botanical Lotion,2,659.18,305.08,Personal Care,Indiranagar,Kabir,CUST-0002,UPI
+2026-07-06,Everyday Tote,1,757.4,356.59,Accessories,Indiranagar,Tara,CUST-0047,UPI
+2026-07-06,Desk Organizer,1,916.79,466.07,Stationery,Koramangala,Meera,CUST-0046,Cash
+2026-07-06,Weekly Planner,1,473.22,166.02,Stationery,Whitefield,Meera,CUST-0042,UPI
+2026-07-06,Citrus Hand Wash,3,467.62,168.35,Personal Care,Koramangala,Meera,CUST-0063,UPI
+2026-07-06,Weekly Planner,1,484.38,164.3,Stationery,Indiranagar,Asha,CUST-0024,UPI
+2026-07-07,Everyday Tote,1,800.64,348.31,Accessories,Koramangala,Meera,CUST-0017,Cash
+2026-07-07,Ceramic Mug,1,590.73,222.8,Homeware,Koramangala,Kabir,CUST-0032,Cash
+2026-07-07,Citrus Hand Wash,1,491.14,167.17,Personal Care,Indiranagar,Meera,CUST-0005,UPI
+2026-07-07,Canvas Backpack,2,1817.18,916.09,Accessories,Koramangala,Rohan,CUST-0015,UPI
+2026-07-07,Citrus Hand Wash,1,492.28,167.71,Personal Care,Koramangala,Tara,CUST-0049,UPI
+2026-07-08,Everyday Tote,1,859.88,385.46,Accessories,Koramangala,Kabir,CUST-0039,UPI
+2026-07-08,Citrus Hand Wash,2,439.21,157.14,Personal Care,Koramangala,Rohan,CUST-0006,Card
+2026-07-08,Linen Throw,3,2310.81,1349.48,Homeware,Whitefield,Tara,CUST-0031,UPI
+2026-07-08,Everyday Tote,1,808.28,337.56,Accessories,Whitefield,Asha,CUST-0083,UPI
+2026-07-08,Citrus Hand Wash,1,453.8,162.49,Personal Care,Whitefield,Rohan,CUST-0013,UPI
+2026-07-09,Botanical Lotion,3,806.79,306.14,Personal Care,Koramangala,Rohan,CUST-0021,Card
+2026-07-09,Canvas Backpack,1,1902.24,901.01,Accessories,Indiranagar,Rohan,CUST-0050,Card
+2026-07-09,Botanical Lotion,1,812.45,294.9,Personal Care,Indiranagar,Tara,CUST-0030,Cash
+2026-07-09,Botanical Lotion,1,809.94,299.09,Personal Care,Indiranagar,Rohan,CUST-0034,Bank Transfer
+2026-07-09,Canvas Backpack,1,1926.04,869.22,Accessories,Koramangala,Kabir,CUST-0011,Card
+2026-07-10,Everyday Tote,1,831.08,340.13,Accessories,Koramangala,Rohan,CUST-0013,UPI
+2026-07-10,Desk Organizer,1,910.12,403.48,Stationery,Koramangala,Meera,CUST-0013,UPI
+2026-07-10,Everyday Tote,1,809.01,325.04,Accessories,Indiranagar,Tara,CUST-0013,UPI
+2026-07-10,Ceramic Mug,3,622.93,242.41,Homeware,Indiranagar,Kabir,CUST-0055,Card
+2026-07-10,Ceramic Mug,2,607.7,222.24,Homeware,Indiranagar,Tara,CUST-0052,UPI
+2026-07-11,Weekly Planner,2,731.25,185.31,Stationery,Koramangala,Meera,CUST-0052,Card
+2026-07-11,Ceramic Mug,2,785.05,233.22,Homeware,Whitefield,Tara,CUST-0029,Card
+2026-07-11,Linen Throw,1,3169.25,1358.1,Homeware,Indiranagar,Kabir,CUST-0022,Cash
+2026-07-11,Ceramic Mug,1,854.01,244.99,Homeware,Whitefield,Meera,CUST-0022,UPI
+2026-07-11,Linen Throw,1,3020.01,1296.17,Homeware,Koramangala,Kabir,CUST-0025,Card
+2026-07-12,Canvas Backpack,1,1892.19,895.4,Accessories,Koramangala,Rohan,CUST-0028,UPI
+2026-07-12,Citrus Hand Wash,1,504.57,162.24,Personal Care,Whitefield,Asha,CUST-0034,Cash
+2026-07-12,Weekly Planner,2,556.65,163.81,Stationery,Indiranagar,Kabir,CUST-0011,UPI
+2026-07-12,Ceramic Mug,1,641.35,232.43,Homeware,Koramangala,Kabir,CUST-0015,Cash
+2026-07-12,Everyday Tote,2,881.33,369.35,Accessories,Whitefield,Tara,CUST-0066,UPI
+2026-07-13,Desk Organizer,1,739.05,455.9,Stationery,Koramangala,Asha,CUST-0033,UPI
+2026-07-13,Everyday Tote,2,641.75,360.76,Accessories,Indiranagar,Asha,CUST-0015,Card
+2026-07-13,Citrus Hand Wash,2,369.17,169.19,Personal Care,Koramangala,Tara,CUST-0068,UPI
+2026-07-13,Canvas Backpack,1,1360.71,885.13,Accessories,Indiranagar,Asha,CUST-0038,UPI
+2026-07-13,Canvas Backpack,2,1394.91,855.22,Accessories,Koramangala,Asha,CUST-0046,UPI
+2026-07-14,Citrus Hand Wash,3,471.78,148.63,Personal Care,Indiranagar,Asha,CUST-0024,UPI
+2026-07-14,Weekly Planner,1,550.89,172.97,Stationery,Indiranagar,Tara,CUST-0088,Cash
+2026-07-14,Weekly Planner,3,550.83,166.79,Stationery,Indiranagar,Kabir,CUST-0008,Card
+2026-07-14,Linen Throw,1,2431.8,1268.49,Homeware,Whitefield,Tara,CUST-0013,UPI
+2026-07-14,Ceramic Mug,2,619.42,219.83,Homeware,Indiranagar,Rohan,CUST-0038,Card
+2026-07-15,Weekly Planner,1,613.11,190.83,Stationery,Indiranagar,Asha,CUST-0057,UPI
+2026-07-15,Everyday Tote,1,898.34,333.87,Accessories,Indiranagar,Asha,CUST-0047,Cash
+2026-07-15,Ceramic Mug,1,694.75,242.19,Homeware,Whitefield,Meera,CUST-0001,Card
+2026-07-15,Ceramic Mug,1,647.72,218.47,Homeware,Whitefield,Kabir,CUST-0008,Cash
+2026-07-15,Botanical Lotion,1,841.08,306.11,Personal Care,Indiranagar,Tara,CUST-0033,Cash
+2026-07-16,Everyday Tote,3,818.09,363.22,Accessories,Whitefield,Tara,CUST-0025,UPI
+2026-07-16,Weekly Planner,1,534.75,173.62,Stationery,Koramangala,Asha,CUST-0021,UPI
+2026-07-16,Everyday Tote,2,870.08,382.78,Accessories,Whitefield,Asha,CUST-0070,Card
+2026-07-16,Citrus Hand Wash,1,470.93,166.2,Personal Care,Koramangala,Asha,CUST-0031,Bank Transfer
+2026-07-16,Weekly Planner,2,512.49,169.33,Stationery,Whitefield,Asha,CUST-0014,UPI
+2026-07-17,Desk Organizer,2,962.65,449.29,Stationery,Koramangala,Tara,CUST-0023,Cash
+2026-07-17,Citrus Hand Wash,1,504.4,180.6,Personal Care,Indiranagar,Kabir,CUST-0041,UPI
+2026-07-17,Everyday Tote,1,882.59,373.03,Accessories,Indiranagar,Rohan,CUST-0008,Card
+2026-07-17,Botanical Lotion,1,774.8,321.1,Personal Care,Whitefield,Tara,CUST-0034,UPI
+2026-07-17,Botanical Lotion,1,817.36,321.92,Personal Care,Indiranagar,Rohan,CUST-0013,UPI
+2026-07-18,Desk Organizer,1,1298.41,439.21,Stationery,Whitefield,Asha,CUST-0030,UPI
+2026-07-18,Ceramic Mug,1,892.51,234.76,Homeware,Indiranagar,Kabir,CUST-0032,Bank Transfer
+2026-07-18,Ceramic Mug,2,808.63,227.51,Homeware,Indiranagar,Rohan,CUST-0055,Card
+2026-07-18,Ceramic Mug,3,893.6,242.99,Homeware,Indiranagar,Asha,CUST-0016,UPI
+2026-07-18,Canvas Backpack,2,2584.09,908.49,Accessories,Koramangala,Asha,CUST-0012,Card
+2026-07-19,Canvas Backpack,1,1971.44,831.6,Accessories,Koramangala,Tara,CUST-0016,Card
+2026-07-19,Everyday Tote,1,899.71,350.41,Accessories,Indiranagar,Rohan,CUST-0035,Card
+2026-07-19,Botanical Lotion,1,858.5,294.33,Personal Care,Whitefield,Rohan,CUST-0021,Card
+2026-07-19,Ceramic Mug,1,694.76,238.53,Homeware,Whitefield,Asha,CUST-0023,UPI
+2026-07-19,Linen Throw,1,2762.57,1408.42,Homeware,Indiranagar,Tara,CUST-0049,UPI
+2026-07-20,Ceramic Mug,1,505.03,237.89,Homeware,Whitefield,Asha,CUST-0005,Bank Transfer
+2026-07-20,Botanical Lotion,2,687.47,326.54,Personal Care,Koramangala,Rohan,CUST-0055,Card
+2026-07-20,Linen Throw,1,2083.0,1446.08,Homeware,Whitefield,Rohan,CUST-0009,Cash
+2026-07-20,Citrus Hand Wash,1,390.19,156.44,Personal Care,Koramangala,Asha,CUST-0036,Bank Transfer
+2026-07-20,Linen Throw,2,1936.92,1263.24,Homeware,Indiranagar,Kabir,CUST-0025,Cash
+2026-07-21,Canvas Backpack,1,1902.24,895.81,Accessories,Indiranagar,Kabir,CUST-0029,Cash
+2026-07-21,Weekly Planner,1,523.33,160.04,Stationery,Indiranagar,Meera,CUST-0012,Bank Transfer
+2026-07-21,Ceramic Mug,1,675.98,242.09,Homeware,Whitefield,Kabir,CUST-0017,Card
+2026-07-21,Canvas Backpack,1,1939.21,903.19,Accessories,Whitefield,Asha,CUST-0003,UPI
+2026-07-21,Weekly Planner,1,558.75,172.88,Stationery,Indiranagar,Asha,CUST-0024,Card
+2026-07-22,Botanical Lotion,1,723.27,323.93,Personal Care,Koramangala,Rohan,CUST-0050,Cash
+2026-07-22,Canvas Backpack,2,1748.37,904.74,Accessories,Indiranagar,Rohan,CUST-0002,Cash
+2026-07-22,Weekly Planner,1,515.47,178.67,Stationery,Whitefield,Kabir,CUST-0010,UPI
+2026-07-22,Ceramic Mug,1,578.18,242.79,Homeware,Indiranagar,Rohan,CUST-0004,UPI
+2026-07-22,Ceramic Mug,2,585.69,252.51,Homeware,Koramangala,Tara,CUST-0042,UPI
+2026-07-23,Citrus Hand Wash,1,511.15,168.35,Personal Care,Indiranagar,Rohan,CUST-0026,Card
+2026-07-23,Ceramic Mug,2,638.85,243.52,Homeware,Whitefield,Asha,CUST-0034,Cash
+2026-07-23,Everyday Tote,1,879.61,366.76,Accessories,Whitefield,Tara,CUST-0028,Cash
+2026-07-23,Ceramic Mug,1,660.08,252.0,Homeware,Whitefield,Asha,CUST-0035,Card
+2026-07-23,Everyday Tote,1,871.27,350.4,Accessories,Indiranagar,Kabir,CUST-0006,UPI
+2026-07-24,Citrus Hand Wash,2,494.84,158.49,Personal Care,Indiranagar,Rohan,CUST-0027,UPI
+2026-07-24,Citrus Hand Wash,2,516.66,167.88,Personal Care,Koramangala,Asha,CUST-0013,Card
+2026-07-24,Everyday Tote,2,893.21,363.2,Accessories,Indiranagar,Meera,CUST-0020,Card
+2026-07-24,Botanical Lotion,1,804.85,296.58,Personal Care,Whitefield,Rohan,CUST-0028,UPI
+2026-07-24,Botanical Lotion,2,816.7,310.8,Personal Care,Whitefield,Kabir,CUST-0013,UPI
+2026-07-25,Desk Organizer,2,1301.31,449.1,Stationery,Koramangala,Asha,CUST-0020,Card
+2026-07-25,Everyday Tote,1,1185.09,365.16,Accessories,Whitefield,Rohan,CUST-0039,UPI
+2026-07-25,Citrus Hand Wash,1,662.66,169.46,Personal Care,Koramangala,Meera,CUST-0043,Card
+2026-07-25,Citrus Hand Wash,1,631.59,156.68,Personal Care,Whitefield,Kabir,CUST-0028,Card
+2026-07-25,Canvas Backpack,1,2656.93,953.68,Accessories,Indiranagar,Meera,CUST-0012,UPI
+2026-07-26,Citrus Hand Wash,1,434.24,155.69,Personal Care,Indiranagar,Asha,CUST-0055,Card
+2026-07-26,Canvas Backpack,1,1755.97,894.79,Accessories,Whitefield,Kabir,CUST-0002,Card
+2026-07-26,Desk Organizer,1,880.6,431.81,Stationery,Indiranagar,Meera,CUST-0015,Card
+2026-07-26,Everyday Tote,1,781.5,345.86,Accessories,Indiranagar,Asha,CUST-0011,UPI
+2026-07-26,Botanical Lotion,1,708.23,307.02,Personal Care,Koramangala,Kabir,CUST-0023,UPI
+2026-07-27,Everyday Tote,1,783.87,352.69,Accessories,Indiranagar,Asha,CUST-0085,Card
+2026-07-27,Weekly Planner,2,521.32,176.18,Stationery,Koramangala,Asha,CUST-0027,UPI
+2026-07-27,Everyday Tote,1,773.2,336.59,Accessories,Whitefield,Kabir,CUST-0002,Card
+2026-07-27,Citrus Hand Wash,1,479.17,165.52,Personal Care,Indiranagar,Tara,CUST-0011,UPI
+2026-07-27,Canvas Backpack,3,1724.18,842.91,Accessories,Whitefield,Tara,CUST-0046,Cash
+2026-07-28,Desk Organizer,1,829.34,413.92,Stationery,Koramangala,Rohan,CUST-0039,UPI
+2026-07-28,Citrus Hand Wash,2,446.2,168.97,Personal Care,Whitefield,Rohan,CUST-0028,UPI
+2026-07-28,Citrus Hand Wash,1,413.47,162.98,Personal Care,Koramangala,Asha,CUST-0007,Card
+2026-07-28,Citrus Hand Wash,1,425.84,155.74,Personal Care,Whitefield,Kabir,CUST-0049,Card
+2026-07-28,Everyday Tote,1,727.97,347.1,Accessories,Whitefield,Kabir,CUST-0036,UPI
+2026-07-29,Ceramic Mug,2,581.0,235.91,Homeware,Indiranagar,Rohan,CUST-0052,Cash
+2026-07-29,Desk Organizer,1,869.08,422.5,Stationery,Koramangala,Asha,CUST-0028,Card
+2026-07-29,Weekly Planner,1,490.89,165.84,Stationery,Indiranagar,Rohan,CUST-0007,UPI
+2026-07-29,Botanical Lotion,2,719.68,300.72,Personal Care,Indiranagar,Rohan,CUST-0033,UPI
+2026-07-29,Everyday Tote,1,764.47,342.66,Accessories,Whitefield,Tara,CUST-0015,UPI
+2026-07-30,Botanical Lotion,1,886.04,301.04,Personal Care,Indiranagar,Meera,CUST-0021,Cash
+2026-07-30,Weekly Planner,1,616.4,176.66,Stationery,Indiranagar,Tara,CUST-0019,Card
+2026-07-30,Botanical Lotion,1,883.99,299.71,Personal Care,Indiranagar,Rohan,CUST-0036,Card
+2026-07-30,Citrus Hand Wash,1,535.57,157.52,Personal Care,Koramangala,Meera,CUST-0022,UPI
+2026-07-30,Everyday Tote,2,990.92,353.05,Accessories,Koramangala,Tara,CUST-0012,Card
+2026-07-31,Weekly Planner,1,623.69,161.19,Stationery,Whitefield,Tara,CUST-0055,Cash
+2026-07-31,Weekly Planner,1,635.14,176.86,Stationery,Koramangala,Kabir,CUST-0011,Card
+2026-07-31,Weekly Planner,1,611.43,166.93,Stationery,Koramangala,Meera,CUST-0055,UPI
+2026-07-31,Canvas Backpack,1,2188.15,857.59,Accessories,Whitefield,Meera,CUST-0004,UPI
+2026-07-31,Weekly Planner,1,630.2,170.37,Stationery,Koramangala,Rohan,CUST-0040,UPI
+2026-08-01,Everyday Tote,2,912.9,356.48,Accessories,Whitefield,Tara,CUST-0044,Bank Transfer
+2026-08-01,Citrus Hand Wash,1,566.29,176.11,Personal Care,Indiranagar,Tara,CUST-0087,Bank Transfer
+2026-08-01,Citrus Hand Wash,1,507.17,159.89,Personal Care,Indiranagar,Rohan,CUST-0024,Card
+2026-08-01,Everyday Tote,1,920.86,356.11,Accessories,Indiranagar,Meera,CUST-0006,UPI
+2026-08-01,Citrus Hand Wash,1,552.5,163.95,Personal Care,Whitefield,Kabir,CUST-0051,Bank Transfer
+2026-08-02,Canvas Backpack,2,1808.56,934.68,Accessories,Indiranagar,Kabir,CUST-0051,UPI
+2026-08-02,Ceramic Mug,1,621.81,243.4,Homeware,Indiranagar,Asha,CUST-0052,UPI
+2026-08-02,Canvas Backpack,1,1728.89,851.56,Accessories,Indiranagar,Kabir,CUST-0052,UPI
+2026-08-02,Citrus Hand Wash,1,466.2,167.58,Personal Care,Indiranagar,Rohan,CUST-0001,UPI
+2026-08-02,Citrus Hand Wash,2,469.89,162.41,Personal Care,Whitefield,Asha,CUST-0084,Card
+2026-08-03,Ceramic Mug,1,609.05,251.95,Homeware,Indiranagar,Tara,CUST-0028,UPI
+2026-08-03,Desk Organizer,1,871.82,414.96,Stationery,Koramangala,Asha,CUST-0039,Cash
+2026-08-03,Linen Throw,1,2146.53,1223.43,Homeware,Koramangala,Rohan,CUST-0002,Card
+2026-08-03,Weekly Planner,1,531.31,172.65,Stationery,Koramangala,Kabir,CUST-0003,Card
+2026-08-03,Citrus Hand Wash,1,441.24,163.55,Personal Care,Koramangala,Rohan,CUST-0018,UPI
+2026-08-04,Everyday Tote,3,672.41,377.82,Accessories,Whitefield,Tara,CUST-0041,Card
+2026-08-04,Botanical Lotion,1,631.84,311.54,Personal Care,Indiranagar,Tara,CUST-0029,Card
+2026-08-04,Ceramic Mug,1,488.53,232.73,Homeware,Indiranagar,Asha,CUST-0048,UPI
+2026-08-04,Canvas Backpack,1,1488.76,906.31,Accessories,Indiranagar,Rohan,CUST-0042,UPI
+2026-08-04,Everyday Tote,1,664.91,364.54,Accessories,Indiranagar,Asha,CUST-0036,Card
+2026-08-05,Weekly Planner,1,514.17,177.28,Stationery,Koramangala,Rohan,CUST-0006,Card
+2026-08-05,Ceramic Mug,1,583.68,237.5,Homeware,Indiranagar,Asha,CUST-0044,UPI
+2026-08-05,Citrus Hand Wash,2,453.47,167.38,Personal Care,Koramangala,Meera,CUST-0039,Card
+2026-08-05,Canvas Backpack,1,1699.61,889.96,Accessories,Koramangala,Rohan,CUST-0025,UPI
+2026-08-05,Everyday Tote,1,792.55,356.05,Accessories,Koramangala,Tara,CUST-0027,UPI
+2026-08-06,Desk Organizer,1,915.6,413.64,Stationery,Koramangala,Kabir,CUST-0061,Card
+2026-08-06,Ceramic Mug,2,616.46,237.56,Homeware,Indiranagar,Asha,CUST-0011,Card
+2026-08-06,Weekly Planner,1,510.26,160.91,Stationery,Whitefield,Asha,CUST-0005,Card
+2026-08-06,Everyday Tote,2,868.43,355.94,Accessories,Whitefield,Asha,CUST-0004,Card
+2026-08-06,Linen Throw,1,2292.26,1351.22,Homeware,Koramangala,Kabir,CUST-0070,UPI
+2026-08-07,Desk Organizer,2,1015.44,428.88,Stationery,Whitefield,Meera,CUST-0004,UPI
+2026-08-07,Citrus Hand Wash,1,470.9,151.57,Personal Care,Koramangala,Kabir,CUST-0025,UPI
+2026-08-07,Botanical Lotion,1,852.47,316.26,Personal Care,Indiranagar,Rohan,CUST-0067,Card
+2026-08-07,Linen Throw,2,2527.07,1311.95,Homeware,Whitefield,Kabir,CUST-0014,Card
+2026-08-07,Ceramic Mug,1,650.98,238.47,Homeware,Indiranagar,Tara,CUST-0029,UPI
+2026-08-08,Botanical Lotion,1,860.22,308.31,Personal Care,Indiranagar,Rohan,CUST-0004,Bank Transfer
+2026-08-08,Everyday Tote,1,955.2,362.29,Accessories,Koramangala,Rohan,CUST-0052,Cash
+2026-08-08,Everyday Tote,2,992.67,378.53,Accessories,Koramangala,Meera,CUST-0003,Cash
+2026-08-08,Everyday Tote,2,936.43,329.39,Accessories,Koramangala,Asha,CUST-0026,Card
+2026-08-08,Citrus Hand Wash,1,528.25,163.56,Personal Care,Indiranagar,Rohan,CUST-0027,UPI
+2026-08-09,Weekly Planner,2,712.38,174.07,Stationery,Koramangala,Meera,CUST-0011,Card
+2026-08-09,Citrus Hand Wash,2,620.45,165.19,Personal Care,Whitefield,Kabir,CUST-0014,Cash
+2026-08-09,Ceramic Mug,2,812.46,248.0,Homeware,Whitefield,Asha,CUST-0048,Card
+2026-08-09,Citrus Hand Wash,1,625.61,161.8,Personal Care,Indiranagar,Tara,CUST-0007,UPI
+2026-08-09,Linen Throw,1,3148.03,1354.53,Homeware,Koramangala,Asha,CUST-0033,UPI
+2026-08-10,Botanical Lotion,1,740.45,317.83,Personal Care,Koramangala,Rohan,CUST-0010,Bank Transfer
+2026-08-10,Everyday Tote,2,808.28,341.43,Accessories,Indiranagar,Asha,CUST-0053,UPI
+2026-08-10,Linen Throw,1,2262.3,1268.65,Homeware,Whitefield,Asha,CUST-0003,UPI
+2026-08-10,Citrus Hand Wash,1,483.05,161.98,Personal Care,Indiranagar,Asha,CUST-0011,Card
+2026-08-10,Everyday Tote,2,819.54,364.38,Accessories,Koramangala,Kabir,CUST-0049,Card
+2026-08-11,Ceramic Mug,1,533.07,215.68,Homeware,Whitefield,Rohan,CUST-0011,UPI
+2026-08-11,Weekly Planner,1,512.17,176.71,Stationery,Indiranagar,Asha,CUST-0032,Card
+2026-08-11,Weekly Planner,1,505.14,172.64,Stationery,Whitefield,Rohan,CUST-0044,UPI
+2026-08-11,Botanical Lotion,1,690.58,295.17,Personal Care,Koramangala,Asha,CUST-0004,Cash
+2026-08-11,Everyday Tote,1,730.51,332.06,Accessories,Koramangala,Rohan,CUST-0016,UPI
+2026-08-12,Ceramic Mug,2,669.86,250.92,Homeware,Whitefield,Meera,CUST-0043,UPI
+2026-08-12,Citrus Hand Wash,2,533.08,176.64,Personal Care,Koramangala,Tara,CUST-0029,Card
+2026-08-12,Ceramic Mug,1,657.22,248.85,Homeware,Koramangala,Asha,CUST-0054,Bank Transfer
+2026-08-12,Linen Throw,1,2495.67,1331.13,Homeware,Indiranagar,Meera,CUST-0002,Card
+2026-08-12,Desk Organizer,1,1021.62,439.59,Stationery,Indiranagar,Asha,CUST-0032,UPI
+2026-08-13,Canvas Backpack,1,1962.14,940.92,Accessories,Indiranagar,Rohan,CUST-0009,Card
+2026-08-13,Everyday Tote,2,909.86,373.63,Accessories,Indiranagar,Rohan,CUST-0048,Card
+2026-08-13,Citrus Hand Wash,1,503.27,169.33,Personal Care,Koramangala,Asha,CUST-0055,UPI
+2026-08-13,Citrus Hand Wash,1,495.94,155.54,Personal Care,Whitefield,Rohan,CUST-0016,Cash
+2026-08-13,Linen Throw,1,2548.95,1411.81,Homeware,Whitefield,Asha,CUST-0017,UPI
+2026-08-14,Canvas Backpack,1,2455.33,931.31,Accessories,Whitefield,Asha,CUST-0065,UPI
+2026-08-14,Desk Organizer,1,1329.85,471.68,Stationery,Whitefield,Rohan,CUST-0046,UPI
+2026-08-14,Everyday Tote,1,1096.16,359.23,Accessories,Koramangala,Kabir,CUST-0028,Bank Transfer
+2026-08-14,Ceramic Mug,1,842.4,245.94,Homeware,Whitefield,Tara,CUST-0016,Cash
+2026-08-14,Ceramic Mug,2,814.43,231.9,Homeware,Koramangala,Meera,CUST-0070,Cash
+2026-08-15,Citrus Hand Wash,2,634.04,176.05,Personal Care,Indiranagar,Asha,CUST-0015,UPI
+2026-08-15,Botanical Lotion,1,949.36,295.57,Personal Care,Indiranagar,Tara,CUST-0015,UPI
+2026-08-15,Desk Organizer,1,1278.54,462.84,Stationery,Whitefield,Meera,CUST-0030,UPI
+2026-08-15,Everyday Tote,1,1033.23,346.7,Accessories,Whitefield,Rohan,CUST-0045,Bank Transfer
+2026-08-15,Citrus Hand Wash,1,586.63,160.13,Personal Care,Whitefield,Kabir,CUST-0044,UPI
+2026-08-16,Linen Throw,1,2256.96,1287.57,Homeware,Koramangala,Meera,CUST-0040,UPI
+2026-08-16,Citrus Hand Wash,2,435.52,158.74,Personal Care,Koramangala,Meera,CUST-0018,UPI
+2026-08-16,Citrus Hand Wash,1,457.37,162.92,Personal Care,Indiranagar,Asha,CUST-0045,UPI
+2026-08-16,Everyday Tote,1,813.08,356.63,Accessories,Koramangala,Asha,CUST-0007,UPI
+2026-08-16,Citrus Hand Wash,1,461.39,155.8,Personal Care,Whitefield,Asha,CUST-0044,UPI
+2026-08-17,Linen Throw,1,2193.53,1352.28,Homeware,Indiranagar,Tara,CUST-0032,Bank Transfer
+2026-08-17,Citrus Hand Wash,1,432.95,163.57,Personal Care,Whitefield,Asha,CUST-0006,Card
+2026-08-17,Citrus Hand Wash,2,443.01,158.03,Personal Care,Whitefield,Asha,CUST-0020,Cash
+2026-08-17,Everyday Tote,1,768.76,369.8,Accessories,Indiranagar,Tara,CUST-0049,Card
+2026-08-17,Citrus Hand Wash,2,411.57,160.12,Personal Care,Indiranagar,Rohan,CUST-0040,UPI
+2026-08-18,Botanical Lotion,1,688.42,310.76,Personal Care,Indiranagar,Asha,CUST-0049,Card
+2026-08-18,Weekly Planner,1,459.72,161.39,Stationery,Koramangala,Tara,CUST-0035,Card
+2026-08-18,Canvas Backpack,1,1633.7,842.61,Accessories,Koramangala,Tara,CUST-0060,UPI
+2026-08-18,Ceramic Mug,1,552.25,237.11,Homeware,Indiranagar,Kabir,CUST-0021,Card
+2026-08-18,Everyday Tote,1,779.03,351.48,Accessories,Koramangala,Rohan,CUST-0085,Card
+2026-08-19,Linen Throw,1,2584.03,1431.66,Homeware,Whitefield,Tara,CUST-0023,Cash
+2026-08-19,Ceramic Mug,1,674.73,235.23,Homeware,Indiranagar,Tara,CUST-0042,Cash
+2026-08-19,Everyday Tote,1,891.61,368.23,Accessories,Indiranagar,Asha,CUST-0034,UPI
+2026-08-19,Botanical Lotion,3,852.48,328.18,Personal Care,Koramangala,Asha,CUST-0043,Card
+2026-08-19,Ceramic Mug,1,652.87,242.35,Homeware,Indiranagar,Asha,CUST-0074,UPI
+2026-08-20,Ceramic Mug,2,819.18,239.37,Homeware,Indiranagar,Meera,CUST-0020,Card
+2026-08-20,Botanical Lotion,1,1006.84,309.51,Personal Care,Koramangala,Meera,CUST-0027,UPI
+2026-08-20,Linen Throw,1,2877.43,1336.88,Homeware,Whitefield,Meera,CUST-0016,UPI
+2026-08-20,Linen Throw,1,3060.39,1431.05,Homeware,Whitefield,Asha,CUST-0039,Card
+2026-08-20,Linen Throw,2,2949.64,1385.67,Homeware,Indiranagar,Kabir,CUST-0005,Card
+2026-08-21,Everyday Tote,1,951.91,361.68,Accessories,Indiranagar,Meera,CUST-0030,Card
+2026-08-21,Linen Throw,1,2788.45,1434.17,Homeware,Indiranagar,Tara,CUST-0054,UPI
+2026-08-21,Citrus Hand Wash,3,499.48,158.49,Personal Care,Indiranagar,Meera,CUST-0002,Cash
+2026-08-21,Citrus Hand Wash,1,497.39,152.28,Personal Care,Koramangala,Rohan,CUST-0021,Card
+2026-08-21,Botanical Lotion,1,899.46,334.67,Personal Care,Indiranagar,Kabir,CUST-0047,UPI
+2026-08-22,Weekly Planner,1,762.05,184.98,Stationery,Koramangala,Tara,CUST-0032,Card
+2026-08-22,Linen Throw,1,3246.98,1334.08,Homeware,Koramangala,Tara,CUST-0003,Card
+2026-08-22,Everyday Tote,2,1206.86,388.34,Accessories,Indiranagar,Asha,CUST-0003,UPI
+2026-08-22,Desk Organizer,1,1247.73,431.18,Stationery,Koramangala,Asha,CUST-0044,UPI
+2026-08-22,Weekly Planner,1,755.22,172.83,Stationery,Indiranagar,Rohan,CUST-0016,Card
+2026-08-23,Everyday Tote,1,1035.41,362.22,Accessories,Indiranagar,Kabir,CUST-0051,UPI
+2026-08-23,Weekly Planner,1,666.33,173.76,Stationery,Koramangala,Kabir,CUST-0041,Card
+2026-08-23,Citrus Hand Wash,2,548.65,153.29,Personal Care,Indiranagar,Asha,CUST-0018,Card
+2026-08-23,Linen Throw,1,2951.89,1425.18,Homeware,Indiranagar,Rohan,CUST-0053,Bank Transfer
+2026-08-23,Canvas Backpack,1,2111.12,878.63,Accessories,Indiranagar,Meera,CUST-0039,UPI
+2026-08-24,Desk Organizer,1,972.39,455.84,Stationery,Indiranagar,Meera,CUST-0038,UPI
+2026-08-24,Everyday Tote,1,797.2,336.55,Accessories,Indiranagar,Kabir,CUST-0022,UPI
+2026-08-24,Ceramic Mug,2,577.08,225.4,Homeware,Koramangala,Asha,CUST-0052,Card
+2026-08-24,Canvas Backpack,2,1778.79,909.38,Accessories,Koramangala,Kabir,CUST-0024,Card
+2026-08-24,Weekly Planner,1,535.81,183.14,Stationery,Whitefield,Asha,CUST-0028,Cash
+2026-08-25,Citrus Hand Wash,1,389.94,170.11,Personal Care,Koramangala,Tara,CUST-0054,UPI
+2026-08-25,Ceramic Mug,1,500.34,232.58,Homeware,Indiranagar,Meera,CUST-0043,UPI
+2026-08-25,Everyday Tote,1,712.48,380.85,Accessories,Whitefield,Meera,CUST-0010,UPI
+2026-08-25,Ceramic Mug,1,480.04,229.65,Homeware,Whitefield,Meera,CUST-0030,Card
+2026-08-25,Botanical Lotion,1,613.07,311.86,Personal Care,Indiranagar,Kabir,CUST-0035,Card
+2026-08-26,Canvas Backpack,1,2123.53,922.99,Accessories,Indiranagar,Kabir,CUST-0066,Bank Transfer
+2026-08-26,Weekly Planner,1,626.18,189.19,Stationery,Whitefield,Asha,CUST-0038,UPI
+2026-08-26,Desk Organizer,1,1041.74,439.4,Stationery,Koramangala,Rohan,CUST-0049,UPI
+2026-08-26,Weekly Planner,2,588.09,177.29,Stationery,Indiranagar,Asha,CUST-0005,Card
+2026-08-26,Ceramic Mug,1,690.89,248.86,Homeware,Koramangala,Meera,CUST-0013,Card
+2026-08-27,Botanical Lotion,2,807.4,313.04,Personal Care,Indiranagar,Meera,CUST-0006,Card
+2026-08-27,Citrus Hand Wash,1,478.61,154.66,Personal Care,Indiranagar,Asha,CUST-0027,Card
+2026-08-27,Canvas Backpack,2,1874.26,847.9,Accessories,Koramangala,Asha,CUST-0003,Card
+2026-08-27,Linen Throw,2,2359.77,1330.91,Homeware,Whitefield,Asha,CUST-0023,Card
+2026-08-27,Weekly Planner,2,576.96,178.95,Stationery,Indiranagar,Kabir,CUST-0001,UPI
+2026-08-28,Botanical Lotion,1,808.44,300.92,Personal Care,Whitefield,Asha,CUST-0029,Card
+2026-08-28,Weekly Planner,3,577.14,180.67,Stationery,Koramangala,Kabir,CUST-0025,UPI
+2026-08-28,Citrus Hand Wash,1,523.53,168.93,Personal Care,Indiranagar,Tara,CUST-0010,Bank Transfer
+2026-08-28,Canvas Backpack,1,2068.42,944.36,Accessories,Indiranagar,Kabir,CUST-0013,Card
+2026-08-28,Citrus Hand Wash,1,519.54,165.2,Personal Care,Koramangala,Kabir,CUST-0054,UPI
+2026-08-29,Desk Organizer,1,1152.31,450.43,Stationery,Koramangala,Kabir,CUST-0018,Card
+2026-08-29,Citrus Hand Wash,1,581.96,171.86,Personal Care,Koramangala,Rohan,CUST-0040,Cash
+2026-08-29,Canvas Backpack,1,2180.84,879.49,Accessories,Whitefield,Tara,CUST-0022,UPI
+2026-08-29,Weekly Planner,1,633.92,179.32,Stationery,Whitefield,Meera,CUST-0001,Card
+2026-08-29,Weekly Planner,1,616.33,162.15,Stationery,Indiranagar,Kabir,CUST-0049,UPI
+2026-08-30,Ceramic Mug,1,770.99,224.2,Homeware,Indiranagar,Rohan,CUST-0022,UPI
+2026-08-30,Ceramic Mug,1,824.78,244.06,Homeware,Indiranagar,Kabir,CUST-0019,UPI
+2026-08-30,Everyday Tote,2,1150.31,376.98,Accessories,Indiranagar,Kabir,CUST-0027,Cash
+2026-08-30,Weekly Planner,1,676.74,163.77,Stationery,Whitefield,Rohan,CUST-0028,UPI
+2026-08-30,Canvas Backpack,2,2444.92,936.23,Accessories,Whitefield,Kabir,CUST-0038,UPI
+2026-08-31,Linen Throw,1,2268.53,1345.39,Homeware,Koramangala,Kabir,CUST-0031,Card
+2026-08-31,Weekly Planner,1,528.42,174.04,Stationery,Indiranagar,Rohan,CUST-0048,UPI
+2026-08-31,Weekly Planner,1,504.94,158.77,Stationery,Whitefield,Tara,CUST-0019,Cash
+2026-08-31,Weekly Planner,1,497.78,160.55,Stationery,Whitefield,Tara,CUST-0074,Card
+2026-08-31,Citrus Hand Wash,1,451.13,162.48,Personal Care,Indiranagar,Rohan,CUST-0036,Card
+2026-09-01,Desk Organizer,2,1015.71,439.03,Stationery,Indiranagar,Tara,CUST-0050,UPI
+2026-09-01,Botanical Lotion,1,831.0,295.38,Personal Care,Indiranagar,Meera,CUST-0083,Card
+2026-09-01,Weekly Planner,1,562.91,167.54,Stationery,Koramangala,Kabir,CUST-0027,UPI
+2026-09-01,Ceramic Mug,2,682.79,234.11,Homeware,Koramangala,Rohan,CUST-0050,Bank Transfer
+2026-09-01,Botanical Lotion,1,801.4,301.79,Personal Care,Koramangala,Meera,CUST-0021,Card
+2026-09-02,Canvas Backpack,2,2151.22,895.09,Accessories,Indiranagar,Kabir,CUST-0011,Card
+2026-09-02,Citrus Hand Wash,1,551.95,175.32,Personal Care,Koramangala,Kabir,CUST-0024,UPI
+2026-09-02,Ceramic Mug,2,688.0,242.34,Homeware,Whitefield,Tara,CUST-0044,Cash
+2026-09-02,Botanical Lotion,2,888.13,311.86,Personal Care,Whitefield,Meera,CUST-0010,UPI
+2026-09-02,Canvas Backpack,1,2022.85,911.23,Accessories,Indiranagar,Rohan,CUST-0033,Cash
+2026-09-03,Citrus Hand Wash,1,548.53,161.49,Personal Care,Indiranagar,Rohan,CUST-0028,Card
+2026-09-03,Ceramic Mug,1,743.14,249.27,Homeware,Whitefield,Kabir,CUST-0023,UPI
+2026-09-03,Linen Throw,1,2639.66,1360.63,Homeware,Koramangala,Asha,CUST-0016,Card
+2026-09-03,Citrus Hand Wash,2,549.73,157.21,Personal Care,Indiranagar,Tara,CUST-0025,UPI
+2026-09-03,Botanical Lotion,1,870.43,313.85,Personal Care,Whitefield,Rohan,CUST-0054,Cash
+2026-09-04,Everyday Tote,1,946.38,357.42,Accessories,Koramangala,Asha,CUST-0054,UPI
+2026-09-04,Citrus Hand Wash,2,528.84,158.94,Personal Care,Whitefield,Meera,CUST-0018,Cash
+2026-09-04,Citrus Hand Wash,1,504.41,159.56,Personal Care,Indiranagar,Meera,CUST-0018,Card
+2026-09-04,Desk Organizer,3,1106.79,437.46,Stationery,Whitefield,Tara,CUST-0044,UPI
+2026-09-04,Canvas Backpack,2,2161.4,981.25,Accessories,Whitefield,Asha,CUST-0026,Card
+2026-09-05,Weekly Planner,1,635.39,178.01,Stationery,Koramangala,Tara,CUST-0042,Cash
+2026-09-05,Desk Organizer,1,1180.1,435.77,Stationery,Indiranagar,Asha,CUST-0054,Card
+2026-09-05,Everyday Tote,3,956.34,346.05,Accessories,Koramangala,Rohan,CUST-0030,Card
+2026-09-05,Citrus Hand Wash,2,580.05,168.38,Personal Care,Indiranagar,Asha,CUST-0042,Card
+2026-09-05,Citrus Hand Wash,1,541.85,153.71,Personal Care,Indiranagar,Rohan,CUST-0002,Card
+2026-09-06,Ceramic Mug,1,711.28,228.52,Homeware,Koramangala,Meera,CUST-0040,UPI
+2026-09-06,Everyday Tote,1,967.25,326.73,Accessories,Whitefield,Asha,CUST-0019,Card
+2026-09-06,Canvas Backpack,1,2143.57,905.21,Accessories,Indiranagar,Kabir,CUST-0050,UPI
+2026-09-06,Weekly Planner,2,630.05,161.35,Stationery,Whitefield,Kabir,CUST-0001,Card
+2026-09-06,Canvas Backpack,1,2147.65,836.1,Accessories,Indiranagar,Tara,CUST-0008,Card
+2026-09-07,Weekly Planner,1,532.85,164.48,Stationery,Indiranagar,Meera,CUST-0073,UPI
+2026-09-07,Weekly Planner,3,547.09,171.35,Stationery,Indiranagar,Kabir,CUST-0020,UPI
+2026-09-07,Everyday Tote,1,891.64,387.88,Accessories,Koramangala,Tara,CUST-0078,UPI
+2026-09-07,Citrus Hand Wash,1,479.81,163.15,Personal Care,Koramangala,Meera,CUST-0012,Cash
+2026-09-07,Canvas Backpack,1,1849.34,923.19,Accessories,Whitefield,Meera,CUST-0016,Bank Transfer
+2026-09-08,Citrus Hand Wash,1,454.49,160.18,Personal Care,Indiranagar,Kabir,CUST-0053,Card
+2026-09-08,Everyday Tote,2,814.95,373.46,Accessories,Whitefield,Rohan,CUST-0015,Card
+2026-09-08,Everyday Tote,1,829.87,376.22,Accessories,Koramangala,Meera,CUST-0038,Cash
+2026-09-08,Citrus Hand Wash,1,469.38,169.29,Personal Care,Koramangala,Meera,CUST-0014,Card
+2026-09-08,Ceramic Mug,1,587.2,238.99,Homeware,Indiranagar,Meera,CUST-0054,Cash
+2026-09-09,Weekly Planner,1,460.55,170.12,Stationery,Indiranagar,Meera,CUST-0037,UPI
+2026-09-09,Botanical Lotion,1,641.91,297.82,Personal Care,Whitefield,Meera,CUST-0026,UPI
+2026-09-09,Ceramic Mug,2,557.9,246.86,Homeware,Indiranagar,Rohan,CUST-0044,Card
+2026-09-09,Linen Throw,1,2029.48,1258.63,Homeware,Koramangala,Rohan,CUST-0026,UPI
+2026-09-09,Canvas Backpack,1,1542.91,844.02,Accessories,Koramangala,Asha,CUST-0007,Card
+2026-09-10,Citrus Hand Wash,1,506.0,157.98,Personal Care,Indiranagar,Kabir,CUST-0012,Card
+2026-09-10,Desk Organizer,1,1004.25,399.03,Stationery,Koramangala,Rohan,CUST-0002,Card
+2026-09-10,Weekly Planner,1,603.37,172.65,Stationery,Indiranagar,Tara,CUST-0009,Bank Transfer
+2026-09-10,Everyday Tote,2,900.08,340.84,Accessories,Indiranagar,Tara,CUST-0030,Cash
+2026-09-10,Weekly Planner,2,583.62,178.89,Stationery,Indiranagar,Asha,CUST-0072,Card
+2026-09-11,Botanical Lotion,1,759.18,286.45,Personal Care,Whitefield,Kabir,CUST-0004,UPI
+2026-09-11,Desk Organizer,1,987.47,429.22,Stationery,Whitefield,Kabir,CUST-0055,Card
+2026-09-11,Citrus Hand Wash,1,477.79,154.8,Personal Care,Indiranagar,Rohan,CUST-0023,UPI
+2026-09-11,Canvas Backpack,2,1987.53,940.76,Accessories,Indiranagar,Asha,CUST-0010,Cash
+2026-09-11,Botanical Lotion,1,778.85,319.06,Personal Care,Whitefield,Asha,CUST-0011,Cash
+2026-09-12,Ceramic Mug,1,863.84,240.4,Homeware,Koramangala,Asha,CUST-0052,UPI
+2026-09-12,Citrus Hand Wash,1,683.43,163.92,Personal Care,Indiranagar,Meera,CUST-0010,Card
+2026-09-12,Citrus Hand Wash,2,635.66,165.33,Personal Care,Koramangala,Tara,CUST-0045,Card
+2026-09-12,Desk Organizer,1,1365.94,430.36,Stationery,Koramangala,Meera,CUST-0030,UPI
+2026-09-12,Citrus Hand Wash,1,648.26,157.26,Personal Care,Indiranagar,Meera,CUST-0033,UPI
+2026-09-13,Ceramic Mug,1,837.9,245.7,Homeware,Koramangala,Meera,CUST-0022,Card
+2026-09-13,Weekly Planner,2,735.92,187.2,Stationery,Indiranagar,Asha,CUST-0024,UPI
+2026-09-13,Ceramic Mug,1,788.43,221.75,Homeware,Indiranagar,Rohan,CUST-0034,Card
+2026-09-13,Everyday Tote,1,1109.79,366.48,Accessories,Whitefield,Tara,CUST-0049,UPI
+2026-09-13,Weekly Planner,2,702.17,166.93,Stationery,Koramangala,Kabir,CUST-0029,Cash
+2026-09-14,Ceramic Mug,1,460.06,219.23,Homeware,Indiranagar,Kabir,CUST-0002,Card
+2026-09-14,Desk Organizer,3,707.49,413.15,Stationery,Whitefield,Kabir,CUST-0087,UPI
+2026-09-14,Ceramic Mug,1,443.61,211.06,Homeware,Indiranagar,Tara,CUST-0014,Cash
+2026-09-14,Desk Organizer,1,692.06,389.72,Stationery,Whitefield,Asha,CUST-0013,Cash
+2026-09-14,Weekly Planner,1,399.28,163.22,Stationery,Indiranagar,Asha,CUST-0002,UPI
+2026-09-15,Canvas Backpack,1,1979.2,857.1,Accessories,Indiranagar,Kabir,CUST-0008,Bank Transfer
+2026-09-15,Linen Throw,1,2651.45,1289.56,Homeware,Koramangala,Asha,CUST-0030,Bank Transfer
+2026-09-15,Canvas Backpack,1,2136.8,946.55,Accessories,Koramangala,Kabir,CUST-0023,Bank Transfer
+2026-09-15,Desk Organizer,3,1065.57,446.97,Stationery,Whitefield,Asha,CUST-0046,Card
+2026-09-15,Botanical Lotion,3,835.44,288.68,Personal Care,Indiranagar,Kabir,CUST-0037,Card
+2026-09-16,Botanical Lotion,1,1012.64,314.24,Personal Care,Indiranagar,Kabir,CUST-0011,UPI
+2026-09-16,Ceramic Mug,1,746.32,227.89,Homeware,Koramangala,Rohan,CUST-0033,Card
+2026-09-16,Citrus Hand Wash,1,616.74,169.14,Personal Care,Whitefield,Meera,CUST-0032,Cash
+2026-09-16,Ceramic Mug,2,775.31,229.33,Homeware,Indiranagar,Asha,CUST-0038,Card
+2026-09-16,Citrus Hand Wash,2,599.6,164.92,Personal Care,Koramangala,Kabir,CUST-0047,Card
+2026-09-17,Botanical Lotion,1,954.62,330.46,Personal Care,Whitefield,Meera,CUST-0019,Card
+2026-09-17,Ceramic Mug,1,723.57,237.76,Homeware,Indiranagar,Kabir,CUST-0014,UPI
+2026-09-17,Botanical Lotion,1,965.8,323.73,Personal Care,Whitefield,Tara,CUST-0034,UPI
+2026-09-17,Ceramic Mug,2,715.48,235.27,Homeware,Koramangala,Asha,CUST-0022,Bank Transfer
+2026-09-17,Canvas Backpack,1,2109.81,904.83,Accessories,Whitefield,Meera,CUST-0027,Card
+2026-09-18,Weekly Planner,1,544.39,174.95,Stationery,Koramangala,Asha,CUST-0049,Bank Transfer
+2026-09-18,Everyday Tote,1,857.82,337.69,Accessories,Koramangala,Kabir,CUST-0022,Cash
+2026-09-18,Everyday Tote,1,862.99,358.47,Accessories,Whitefield,Tara,CUST-0021,Card
+2026-09-18,Botanical Lotion,2,812.23,322.7,Personal Care,Koramangala,Meera,CUST-0017,Bank Transfer
+2026-09-18,Everyday Tote,1,845.95,338.55,Accessories,Indiranagar,Asha,CUST-0049,Card
+2026-09-19,Ceramic Mug,1,693.62,237.06,Homeware,Koramangala,Kabir,CUST-0017,UPI
+2026-09-19,Botanical Lotion,1,863.83,287.75,Personal Care,Koramangala,Kabir,CUST-0045,UPI
+2026-09-19,Weekly Planner,2,648.03,179.52,Stationery,Indiranagar,Kabir,CUST-0052,Cash
+2026-09-19,Weekly Planner,1,592.59,162.93,Stationery,Koramangala,Asha,CUST-0027,UPI
+2026-09-19,Desk Organizer,1,1079.66,402.21,Stationery,Indiranagar,Kabir,CUST-0061,UPI
+2026-09-20,Citrus Hand Wash,1,545.51,173.46,Personal Care,Whitefield,Kabir,CUST-0008,UPI
+2026-09-20,Linen Throw,1,2735.66,1369.51,Homeware,Indiranagar,Kabir,CUST-0004,UPI
+2026-09-20,Canvas Backpack,3,1990.82,831.48,Accessories,Whitefield,Kabir,CUST-0041,Card
+2026-09-20,Canvas Backpack,1,2000.71,905.08,Accessories,Indiranagar,Asha,CUST-0050,UPI
+2026-09-20,Ceramic Mug,2,659.78,226.75,Homeware,Whitefield,Asha,CUST-0037,UPI
+2026-09-21,Weekly Planner,2,528.9,170.39,Stationery,Whitefield,Tara,CUST-0054,UPI
+2026-09-21,Canvas Backpack,2,1925.47,897.41,Accessories,Whitefield,Rohan,CUST-0042,Bank Transfer
+2026-09-21,Botanical Lotion,1,757.78,317.22,Personal Care,Indiranagar,Tara,CUST-0002,Card
+2026-09-21,Linen Throw,1,2482.7,1400.31,Homeware,Indiranagar,Asha,CUST-0017,UPI
+2026-09-21,Botanical Lotion,1,772.47,308.13,Personal Care,Whitefield,Asha,CUST-0053,Cash
+2026-09-22,Ceramic Mug,1,675.2,224.21,Homeware,Whitefield,Asha,CUST-0005,Card
+2026-09-22,Everyday Tote,3,896.15,337.09,Accessories,Koramangala,Meera,CUST-0003,Card
+2026-09-22,Canvas Backpack,1,2100.95,941.73,Accessories,Indiranagar,Rohan,CUST-0015,UPI
+2026-09-22,Citrus Hand Wash,1,517.3,151.27,Personal Care,Whitefield,Rohan,CUST-0036,Cash
+2026-09-22,Ceramic Mug,1,731.59,259.94,Homeware,Koramangala,Rohan,CUST-0013,Bank Transfer
+2026-09-23,Linen Throw,1,2147.02,1349.91,Homeware,Koramangala,Meera,CUST-0013,Card
+2026-09-23,Everyday Tote,1,725.67,365.55,Accessories,Indiranagar,Asha,CUST-0042,Card
+2026-09-23,Ceramic Mug,2,546.09,246.71,Homeware,Indiranagar,Asha,CUST-0015,Card
+2026-09-23,Weekly Planner,1,474.03,172.68,Stationery,Whitefield,Tara,CUST-0025,Card
+2026-09-23,Ceramic Mug,1,528.67,236.66,Homeware,Whitefield,Rohan,CUST-0004,UPI
+2026-09-24,Weekly Planner,1,491.71,171.65,Stationery,Indiranagar,Tara,CUST-0002,Card
+2026-09-24,Everyday Tote,2,834.21,385.83,Accessories,Whitefield,Meera,CUST-0029,Bank Transfer
+2026-09-24,Ceramic Mug,2,545.81,216.97,Homeware,Indiranagar,Rohan,CUST-0003,UPI
+2026-09-24,Ceramic Mug,2,550.45,225.45,Homeware,Indiranagar,Kabir,CUST-0085,Cash
+2026-09-24,Everyday Tote,1,749.98,337.81,Accessories,Indiranagar,Asha,CUST-0001,Card
+2026-09-25,Botanical Lotion,1,1007.92,334.21,Personal Care,Indiranagar,Tara,CUST-0004,UPI
+2026-09-25,Everyday Tote,2,1088.88,367.14,Accessories,Whitefield,Meera,CUST-0034,Cash
+2026-09-25,Ceramic Mug,1,733.86,221.33,Homeware,Koramangala,Asha,CUST-0085,UPI
+2026-09-25,Botanical Lotion,1,945.74,316.01,Personal Care,Koramangala,Kabir,CUST-0040,Cash
+2026-09-25,Everyday Tote,1,993.63,330.73,Accessories,Koramangala,Meera,CUST-0034,UPI
+2026-09-26,Canvas Backpack,1,2375.68,868.15,Accessories,Whitefield,Rohan,CUST-0033,UPI
+2026-09-26,Everyday Tote,2,1052.96,328.99,Accessories,Indiranagar,Rohan,CUST-0051,UPI
+2026-09-26,Canvas Backpack,1,2460.49,885.16,Accessories,Whitefield,Asha,CUST-0053,UPI
+2026-09-26,Citrus Hand Wash,1,659.0,172.86,Personal Care,Koramangala,Meera,CUST-0037,UPI
+2026-09-26,Citrus Hand Wash,1,604.37,156.16,Personal Care,Whitefield,Kabir,CUST-0047,UPI
+2026-09-27,Canvas Backpack,1,2018.56,826.81,Accessories,Whitefield,Tara,CUST-0038,Card
+2026-09-27,Everyday Tote,1,958.39,348.49,Accessories,Indiranagar,Tara,CUST-0065,UPI
+2026-09-27,Canvas Backpack,1,2145.93,911.92,Accessories,Indiranagar,Tara,CUST-0026,Cash
+2026-09-27,Ceramic Mug,1,693.11,228.96,Homeware,Whitefield,Asha,CUST-0033,Cash
+2026-09-27,Citrus Hand Wash,1,539.03,158.58,Personal Care,Koramangala,Rohan,CUST-0054,Cash
+2026-09-28,Linen Throw,2,2169.13,1257.21,Homeware,Indiranagar,Rohan,CUST-0018,UPI
+2026-09-28,Ceramic Mug,2,558.73,234.29,Homeware,Indiranagar,Rohan,CUST-0043,Cash
+2026-09-28,Everyday Tote,2,773.77,341.12,Accessories,Indiranagar,Rohan,CUST-0011,Card
+2026-09-28,Ceramic Mug,1,601.83,230.98,Homeware,Whitefield,Asha,CUST-0054,Card
+2026-09-28,Everyday Tote,2,850.4,375.76,Accessories,Whitefield,Asha,CUST-0017,UPI
+2026-09-29,Desk Organizer,2,1035.08,399.87,Stationery,Whitefield,Kabir,CUST-0055,Bank Transfer
+2026-09-29,Everyday Tote,2,914.21,350.02,Accessories,Whitefield,Rohan,CUST-0036,Card
+2026-09-29,Botanical Lotion,2,913.39,329.98,Personal Care,Koramangala,Kabir,CUST-0029,Cash
+2026-09-29,Weekly Planner,1,591.37,170.54,Stationery,Whitefield,Rohan,CUST-0059,Cash
+2026-09-29,Everyday Tote,1,941.91,349.88,Accessories,Indiranagar,Asha,CUST-0012,Card
+2026-09-30,Ceramic Mug,1,765.77,234.04,Homeware,Indiranagar,Tara,CUST-0031,UPI
+2026-09-30,Citrus Hand Wash,1,553.15,153.59,Personal Care,Koramangala,Kabir,CUST-0026,UPI
+2026-09-30,Desk Organizer,3,1113.82,420.29,Stationery,Koramangala,Kabir,CUST-0016,Bank Transfer
+2026-09-30,Linen Throw,1,2947.47,1409.9,Homeware,Indiranagar,Asha,CUST-0040,Card
+2026-09-30,Weekly Planner,1,662.98,172.2,Stationery,Koramangala,Kabir,CUST-0041,Card
+2026-10-01,Canvas Backpack,1,1716.96,852.01,Accessories,Koramangala,Kabir,CUST-0048,Cash
+2026-10-01,Everyday Tote,1,838.63,354.85,Accessories,Indiranagar,Tara,CUST-0048,Cash
+2026-10-01,Everyday Tote,2,884.87,368.54,Accessories,Koramangala,Rohan,CUST-0013,Cash
+2026-10-01,Everyday Tote,1,854.5,377.76,Accessories,Whitefield,Meera,CUST-0044,UPI
+2026-10-01,Weekly Planner,1,500.99,165.3,Stationery,Whitefield,Rohan,CUST-0027,UPI
+2026-10-02,Canvas Backpack,1,2458.54,846.04,Accessories,Indiranagar,Rohan,CUST-0015,UPI
+2026-10-02,Ceramic Mug,1,847.59,222.46,Homeware,Indiranagar,Tara,CUST-0037,UPI
+2026-10-02,Botanical Lotion,2,1081.47,326.58,Personal Care,Indiranagar,Rohan,CUST-0083,UPI
+2026-10-02,Citrus Hand Wash,2,634.66,151.91,Personal Care,Whitefield,Asha,CUST-0045,UPI
+2026-10-02,Everyday Tote,1,1135.3,349.58,Accessories,Koramangala,Rohan,CUST-0041,UPI
+2026-10-03,Weekly Planner,1,774.76,170.01,Stationery,Indiranagar,Asha,CUST-0013,UPI
+2026-10-03,Desk Organizer,2,1421.24,438.51,Stationery,Koramangala,Kabir,CUST-0013,Card
+2026-10-03,Everyday Tote,1,1227.64,343.66,Accessories,Indiranagar,Tara,CUST-0040,Cash
+2026-10-03,Weekly Planner,1,823.29,169.35,Stationery,Indiranagar,Asha,CUST-0024,Cash
+2026-10-03,Botanical Lotion,1,1136.3,311.24,Personal Care,Whitefield,Tara,CUST-0042,UPI
+2026-10-04,Citrus Hand Wash,1,558.96,162.58,Personal Care,Koramangala,Meera,CUST-0016,Card
+2026-10-04,Linen Throw,1,2823.49,1385.29,Homeware,Indiranagar,Meera,CUST-0009,Cash
+2026-10-04,Weekly Planner,1,625.48,167.32,Stationery,Koramangala,Kabir,CUST-0029,UPI
+2026-10-04,Canvas Backpack,1,2104.88,886.19,Accessories,Koramangala,Kabir,CUST-0034,Card
+2026-10-04,Desk Organizer,2,1124.3,418.95,Stationery,Whitefield,Kabir,CUST-0037,UPI
+2026-10-05,Ceramic Mug,1,673.72,252.54,Homeware,Koramangala,Rohan,CUST-0030,UPI
+2026-10-05,Ceramic Mug,1,642.64,228.31,Homeware,Koramangala,Kabir,CUST-0022,UPI
+2026-10-05,Desk Organizer,1,984.87,439.1,Stationery,Koramangala,Rohan,CUST-0036,UPI
+2026-10-05,Desk Organizer,2,953.77,397.0,Stationery,Indiranagar,Tara,CUST-0023,Card
+2026-10-05,Desk Organizer,1,998.3,416.98,Stationery,Koramangala,Asha,CUST-0034,UPI
+2026-10-06,Weekly Planner,1,475.16,179.31,Stationery,Indiranagar,Asha,CUST-0017,UPI
+2026-10-06,Everyday Tote,1,676.95,319.39,Accessories,Indiranagar,Meera,CUST-0038,Cash
+2026-10-06,Everyday Tote,2,690.71,351.32,Accessories,Koramangala,Meera,CUST-0048,Cash
+2026-10-06,Weekly Planner,1,444.42,161.77,Stationery,Whitefield,Asha,CUST-0023,Bank Transfer
+2026-10-06,Ceramic Mug,1,536.02,237.48,Homeware,Koramangala,Kabir,CUST-0050,Card
+2026-10-07,Canvas Backpack,1,2040.98,942.89,Accessories,Indiranagar,Kabir,CUST-0037,Cash
+2026-10-07,Ceramic Mug,1,663.34,237.52,Homeware,Koramangala,Meera,CUST-0008,UPI
+2026-10-07,Ceramic Mug,2,652.45,236.96,Homeware,Whitefield,Asha,CUST-0033,UPI
+2026-10-07,Ceramic Mug,1,625.76,238.11,Homeware,Koramangala,Asha,CUST-0050,Card
+2026-10-07,Citrus Hand Wash,1,507.99,165.39,Personal Care,Indiranagar,Asha,CUST-0028,UPI
+2026-10-08,Botanical Lotion,1,782.74,335.36,Personal Care,Koramangala,Tara,CUST-0015,Card
+2026-10-08,Everyday Tote,2,792.88,336.41,Accessories,Koramangala,Rohan,CUST-0016,Cash
+2026-10-08,Everyday Tote,2,869.48,388.13,Accessories,Indiranagar,Asha,CUST-0002,UPI
+2026-10-08,Linen Throw,1,2219.05,1312.92,Homeware,Koramangala,Tara,CUST-0042,UPI
+2026-10-08,Botanical Lotion,1,784.98,308.66,Personal Care,Whitefield,Kabir,CUST-0051,UPI
+2026-10-09,Canvas Backpack,1,1939.55,805.79,Accessories,Indiranagar,Meera,CUST-0011,Card
+2026-10-09,Botanical Lotion,1,835.43,295.2,Personal Care,Koramangala,Meera,CUST-0077,Bank Transfer
+2026-10-09,Citrus Hand Wash,2,524.72,154.81,Personal Care,Whitefield,Meera,CUST-0010,Cash
+2026-10-09,Citrus Hand Wash,1,510.88,163.83,Personal Care,Indiranagar,Asha,CUST-0046,Cash
+2026-10-09,Ceramic Mug,1,710.72,232.56,Homeware,Koramangala,Asha,CUST-0028,Card
+2026-10-10,Everyday Tote,3,1045.92,370.36,Accessories,Whitefield,Tara,CUST-0040,Card
+2026-10-10,Canvas Backpack,1,2210.03,912.46,Accessories,Koramangala,Meera,CUST-0025,UPI
+2026-10-10,Ceramic Mug,1,772.91,238.3,Homeware,Indiranagar,Kabir,CUST-0041,UPI
+2026-10-10,Ceramic Mug,1,707.32,214.98,Homeware,Koramangala,Kabir,CUST-0026,Card
+2026-10-10,Citrus Hand Wash,1,575.54,157.14,Personal Care,Koramangala,Kabir,CUST-0001,Bank Transfer
+2026-10-11,Weekly Planner,1,734.31,169.18,Stationery,Indiranagar,Kabir,CUST-0035,UPI
+2026-10-11,Linen Throw,1,3013.1,1327.87,Homeware,Koramangala,Asha,CUST-0041,Card
+2026-10-11,Ceramic Mug,1,809.5,224.71,Homeware,Indiranagar,Tara,CUST-0023,Card
+2026-10-11,Weekly Planner,1,687.65,172.32,Stationery,Indiranagar,Asha,CUST-0045,UPI
+2026-10-11,Everyday Tote,2,1084.32,329.12,Accessories,Whitefield,Asha,CUST-0043,UPI
+2026-10-12,Everyday Tote,1,817.42,352.23,Accessories,Indiranagar,Meera,CUST-0015,Card
+2026-10-12,Desk Organizer,1,970.93,458.73,Stationery,Whitefield,Meera,CUST-0037,UPI
+2026-10-12,Everyday Tote,2,816.62,353.75,Accessories,Koramangala,Rohan,CUST-0034,UPI
+2026-10-12,Linen Throw,1,2427.08,1308.11,Homeware,Koramangala,Asha,CUST-0024,Bank Transfer
+2026-10-12,Everyday Tote,1,890.44,388.03,Accessories,Koramangala,Tara,CUST-0041,UPI
+2026-10-13,Linen Throw,2,2386.1,1303.94,Homeware,Koramangala,Rohan,CUST-0020,Card
+2026-10-13,Everyday Tote,1,865.87,353.82,Accessories,Koramangala,Meera,CUST-0016,Cash
+2026-10-13,Weekly Planner,1,562.74,179.78,Stationery,Whitefield,Kabir,CUST-0069,UPI
+2026-10-13,Botanical Lotion,2,754.07,303.66,Personal Care,Koramangala,Kabir,CUST-0010,Cash
+2026-10-13,Citrus Hand Wash,1,489.8,161.46,Personal Care,Whitefield,Tara,CUST-0036,Card
+2026-10-14,Everyday Tote,1,934.71,337.85,Accessories,Indiranagar,Rohan,CUST-0003,Card
+2026-10-14,Citrus Hand Wash,2,543.79,161.45,Personal Care,Whitefield,Meera,CUST-0021,UPI
+2026-10-14,Ceramic Mug,1,719.12,245.49,Homeware,Indiranagar,Asha,CUST-0025,Card
+2026-10-14,Citrus Hand Wash,2,540.33,170.23,Personal Care,Indiranagar,Tara,CUST-0011,Card
+2026-10-14,Weekly Planner,1,598.39,173.98,Stationery,Koramangala,Kabir,CUST-0040,Card
+2026-10-15,Botanical Lotion,1,1062.69,310.8,Personal Care,Indiranagar,Rohan,CUST-0032,UPI
+2026-10-15,Ceramic Mug,3,796.22,229.28,Homeware,Indiranagar,Asha,CUST-0011,UPI
+2026-10-15,Ceramic Mug,1,831.66,237.14,Homeware,Koramangala,Kabir,CUST-0032,Card
+2026-10-15,Linen Throw,1,3173.23,1357.8,Homeware,Koramangala,Kabir,CUST-0012,Card
+2026-10-15,Desk Organizer,1,1225.97,432.01,Stationery,Whitefield,Asha,CUST-0051,Card
+2026-10-16,Everyday Tote,1,1029.87,339.4,Accessories,Indiranagar,Kabir,CUST-0007,Card
+2026-10-16,Ceramic Mug,2,749.63,221.27,Homeware,Indiranagar,Meera,CUST-0010,UPI
+2026-10-16,Everyday Tote,1,1082.38,348.14,Accessories,Koramangala,Tara,CUST-0001,UPI
+2026-10-16,Weekly Planner,1,693.9,172.9,Stationery,Whitefield,Rohan,CUST-0042,Card
+2026-10-16,Linen Throw,1,3022.89,1351.56,Homeware,Indiranagar,Tara,CUST-0015,Card
+2026-10-17,Weekly Planner,2,894.9,181.81,Stationery,Koramangala,Tara,CUST-0010,Card
+2026-10-17,Desk Organizer,1,1595.19,445.97,Stationery,Indiranagar,Tara,CUST-0022,Card
+2026-10-17,Botanical Lotion,1,1177.96,300.61,Personal Care,Koramangala,Asha,CUST-0009,Card
+2026-10-17,Citrus Hand Wash,1,738.0,158.93,Personal Care,Indiranagar,Meera,CUST-0046,UPI
+2026-10-17,Citrus Hand Wash,1,808.83,175.91,Personal Care,Indiranagar,Meera,CUST-0026,Cash
+2026-10-18,Desk Organizer,1,1346.25,439.88,Stationery,Indiranagar,Tara,CUST-0055,Card
+2026-10-18,Citrus Hand Wash,1,621.68,150.17,Personal Care,Indiranagar,Meera,CUST-0014,Card
+2026-10-18,Desk Organizer,1,1317.35,425.97,Stationery,Whitefield,Tara,CUST-0008,UPI
+2026-10-18,Weekly Planner,1,783.36,175.67,Stationery,Whitefield,Kabir,CUST-0017,Cash
+2026-10-18,Ceramic Mug,2,828.72,233.58,Homeware,Koramangala,Tara,CUST-0034,Cash
+2026-10-19,Citrus Hand Wash,1,495.18,151.37,Personal Care,Indiranagar,Asha,CUST-0034,Card
+2026-10-19,Everyday Tote,1,959.73,364.99,Accessories,Koramangala,Meera,CUST-0017,Card
+2026-10-19,Desk Organizer,1,1017.5,431.59,Stationery,Koramangala,Asha,CUST-0004,Cash
+2026-10-19,Weekly Planner,1,618.65,184.3,Stationery,Indiranagar,Asha,CUST-0054,UPI
+2026-10-19,Ceramic Mug,1,650.13,215.6,Homeware,Indiranagar,Rohan,CUST-0003,UPI
+2026-10-20,Everyday Tote,2,712.25,359.4,Accessories,Koramangala,Tara,CUST-0009,Cash
+2026-10-20,Everyday Tote,2,720.66,361.84,Accessories,Indiranagar,Kabir,CUST-0052,Card
+2026-10-20,Canvas Backpack,1,1604.68,868.57,Accessories,Koramangala,Asha,CUST-0029,Bank Transfer
+2026-10-20,Everyday Tote,1,705.07,336.52,Accessories,Indiranagar,Kabir,CUST-0019,Card
+2026-10-20,Canvas Backpack,1,1615.05,882.18,Accessories,Koramangala,Meera,CUST-0034,Card
+2026-10-21,Linen Throw,2,10211.52,1288.02,Homeware,Whitefield,Meera,CUST-0041,UPI
+2026-10-21,Desk Organizer,1,4165.28,408.98,Stationery,Koramangala,Meera,CUST-0013,UPI
+2026-10-21,Ceramic Mug,2,2918.84,252.9,Homeware,Indiranagar,Meera,CUST-0018,Bank Transfer
+2026-10-21,Linen Throw,1,10497.8,1297.4,Homeware,Whitefield,Tara,CUST-0030,UPI
+2026-10-21,Ceramic Mug,2,2720.33,225.96,Homeware,Whitefield,Rohan,CUST-0027,Card
+2026-10-22,Ceramic Mug,1,707.1,217.86,Homeware,Indiranagar,Kabir,CUST-0044,UPI
+2026-10-22,Canvas Backpack,1,2078.93,851.55,Accessories,Indiranagar,Meera,CUST-0033,Card
+2026-10-22,Everyday Tote,1,1027.71,380.63,Accessories,Koramangala,Meera,CUST-0026,Card
+2026-10-22,Citrus Hand Wash,2,571.7,168.91,Personal Care,Indiranagar,Asha,CUST-0007,UPI
+2026-10-22,Everyday Tote,1,981.23,332.45,Accessories,Whitefield,Tara,CUST-0006,Cash
+2026-10-23,Citrus Hand Wash,1,477.52,146.53,Personal Care,Indiranagar,Asha,CUST-0040,Bank Transfer
+2026-10-23,Ceramic Mug,2,617.58,229.01,Homeware,Indiranagar,Tara,CUST-0046,UPI
+2026-10-23,Everyday Tote,1,902.23,359.45,Accessories,Whitefield,Rohan,CUST-0037,Cash
+2026-10-23,Linen Throw,2,2490.28,1287.47,Homeware,Koramangala,Asha,CUST-0049,Card
+2026-10-23,Ceramic Mug,1,692.44,249.55,Homeware,Whitefield,Rohan,CUST-0042,UPI
+2026-10-24,Weekly Planner,1,849.51,165.55,Stationery,Koramangala,Rohan,CUST-0036,Bank Transfer
+2026-10-24,Botanical Lotion,1,1256.81,313.2,Personal Care,Indiranagar,Asha,CUST-0014,Card
+2026-10-24,Weekly Planner,1,887.9,174.4,Stationery,Koramangala,Asha,CUST-0067,UPI
+2026-10-24,Linen Throw,1,3972.09,1369.12,Homeware,Koramangala,Tara,CUST-0040,Card
+2026-10-24,Weekly Planner,1,839.06,170.18,Stationery,Whitefield,Meera,CUST-0024,Card
+2026-10-25,Weekly Planner,1,750.99,175.48,Stationery,Koramangala,Kabir,CUST-0037,Card
+2026-10-25,Botanical Lotion,1,1055.49,313.0,Personal Care,Koramangala,Kabir,CUST-0023,UPI
+2026-10-25,Linen Throw,1,3196.38,1322.72,Homeware,Koramangala,Asha,CUST-0027,Card
+2026-10-25,Everyday Tote,1,1221.15,355.26,Accessories,Indiranagar,Meera,CUST-0046,UPI
+2026-10-25,Everyday Tote,1,1222.51,359.7,Accessories,Indiranagar,Meera,CUST-0013,Card
+2026-10-26,Ceramic Mug,2,624.87,229.87,Homeware,Whitefield,Tara,CUST-0040,Card
+2026-10-26,Everyday Tote,1,881.02,345.74,Accessories,Whitefield,Tara,CUST-0018,UPI
+2026-10-26,Everyday Tote,1,851.64,353.16,Accessories,Koramangala,Meera,CUST-0040,Card
+2026-10-26,Linen Throw,2,2476.53,1290.83,Homeware,Indiranagar,Rohan,CUST-0036,Card
+2026-10-26,Citrus Hand Wash,2,476.03,160.19,Personal Care,Indiranagar,Kabir,CUST-0003,UPI
+2026-10-27,Desk Organizer,1,891.68,465.54,Stationery,Whitefield,Asha,CUST-0007,Card
+2026-10-27,Weekly Planner,1,464.24,172.97,Stationery,Whitefield,Asha,CUST-0037,UPI
+2026-10-27,Citrus Hand Wash,1,428.53,170.22,Personal Care,Indiranagar,Asha,CUST-0020,Bank Transfer
+2026-10-27,Ceramic Mug,1,545.81,230.52,Homeware,Koramangala,Meera,CUST-0060,Card
+2026-10-27,Everyday Tote,2,714.15,327.49,Accessories,Koramangala,Rohan,CUST-0020,Card
+2026-10-28,Linen Throw,1,2486.49,1405.12,Homeware,Indiranagar,Tara,CUST-0043,UPI
+2026-10-28,Canvas Backpack,1,1939.37,910.16,Accessories,Indiranagar,Asha,CUST-0006,UPI
+2026-10-28,Ceramic Mug,2,621.56,227.43,Homeware,Whitefield,Kabir,CUST-0037,UPI
+2026-10-28,Citrus Hand Wash,2,495.59,171.95,Personal Care,Indiranagar,Tara,CUST-0055,UPI
+2026-10-28,Botanical Lotion,1,788.7,298.68,Personal Care,Indiranagar,Meera,CUST-0053,Cash
+2026-10-29,Linen Throw,1,3122.66,1399.81,Homeware,Koramangala,Rohan,CUST-0020,UPI
+2026-10-29,Canvas Backpack,1,2179.43,857.75,Accessories,Whitefield,Tara,CUST-0043,UPI
+2026-10-29,Canvas Backpack,2,2330.32,913.23,Accessories,Koramangala,Kabir,CUST-0038,UPI
+2026-10-29,Citrus Hand Wash,2,632.36,180.27,Personal Care,Whitefield,Meera,CUST-0008,Card
+2026-10-29,Desk Organizer,1,1207.8,449.15,Stationery,Koramangala,Kabir,CUST-0020,UPI
+2026-10-30,Ceramic Mug,1,680.84,246.8,Homeware,Indiranagar,Kabir,CUST-0054,Card
+2026-10-30,Everyday Tote,1,944.98,384.89,Accessories,Indiranagar,Tara,CUST-0016,Card
+2026-10-30,Citrus Hand Wash,1,487.56,159.78,Personal Care,Koramangala,Asha,CUST-0052,UPI
+2026-10-30,Ceramic Mug,1,656.59,231.58,Homeware,Whitefield,Meera,CUST-0041,Card
+2026-10-30,Linen Throw,2,2544.64,1276.43,Homeware,Whitefield,Asha,CUST-0067,Card
+2026-10-31,Everyday Tote,1,1307.21,359.72,Accessories,Indiranagar,Rohan,CUST-0052,Card
+2026-10-31,Everyday Tote,1,1230.66,361.11,Accessories,Indiranagar,Asha,CUST-0035,Card
+2026-10-31,Citrus Hand Wash,2,714.46,166.63,Personal Care,Koramangala,Rohan,CUST-0004,UPI
+2026-10-31,Ceramic Mug,1,964.58,245.61,Homeware,Koramangala,Asha,CUST-0032,Bank Transfer
+2026-10-31,Desk Organizer,1,1414.67,422.85,Stationery,Indiranagar,Asha,CUST-0039,UPI
+2026-11-01,Citrus Hand Wash,1,519.01,170.06,Personal Care,Koramangala,Tara,CUST-0013,Card
+2026-11-01,Linen Throw,1,2582.49,1434.83,Homeware,Indiranagar,Tara,CUST-0029,Bank Transfer
+2026-11-01,Everyday Tote,1,841.35,338.35,Accessories,Whitefield,Meera,CUST-0036,Card
+2026-11-01,Ceramic Mug,1,629.15,235.21,Homeware,Whitefield,Meera,CUST-0007,UPI
+2026-11-01,Citrus Hand Wash,2,514.59,162.99,Personal Care,Koramangala,Meera,CUST-0040,UPI
+2026-11-02,Ceramic Mug,1,516.21,238.82,Homeware,Indiranagar,Meera,CUST-0088,Card
+2026-11-02,Desk Organizer,1,781.23,435.37,Stationery,Koramangala,Rohan,CUST-0053,UPI
+2026-11-02,Citrus Hand Wash,1,401.87,174.09,Personal Care,Koramangala,Asha,CUST-0007,Cash
+2026-11-02,Canvas Backpack,1,1529.48,877.08,Accessories,Indiranagar,Meera,CUST-0040,UPI
+2026-11-02,Ceramic Mug,1,484.79,222.13,Homeware,Koramangala,Meera,CUST-0022,Card
+2026-11-03,Ceramic Mug,2,601.12,221.41,Homeware,Indiranagar,Tara,CUST-0049,Cash
+2026-11-03,Citrus Hand Wash,2,497.76,168.94,Personal Care,Whitefield,Meera,CUST-0011,Card
+2026-11-03,Everyday Tote,1,821.3,323.87,Accessories,Whitefield,Meera,CUST-0048,UPI
+2026-11-03,Desk Organizer,1,945.47,433.07,Stationery,Indiranagar,Meera,CUST-0043,UPI
+2026-11-03,Ceramic Mug,1,661.53,258.85,Homeware,Koramangala,Asha,CUST-0003,Card
+2026-11-04,Citrus Hand Wash,2,568.83,167.52,Personal Care,Indiranagar,Kabir,CUST-0038,Cash
+2026-11-04,Desk Organizer,1,1092.45,429.17,Stationery,Whitefield,Kabir,CUST-0015,Card
+2026-11-04,Weekly Planner,2,628.82,179.59,Stationery,Whitefield,Tara,CUST-0021,UPI
+2026-11-04,Desk Organizer,1,1075.63,439.1,Stationery,Koramangala,Rohan,CUST-0040,Cash
+2026-11-04,Everyday Tote,1,921.81,354.34,Accessories,Koramangala,Kabir,CUST-0050,UPI
+2026-11-05,Canvas Backpack,1,2202.56,867.67,Accessories,Indiranagar,Rohan,CUST-0020,UPI
+2026-11-05,Citrus Hand Wash,1,568.46,151.81,Personal Care,Koramangala,Tara,CUST-0004,UPI
+2026-11-05,Ceramic Mug,3,750.58,220.94,Homeware,Koramangala,Kabir,CUST-0017,UPI
+2026-11-05,Everyday Tote,1,1039.38,348.64,Accessories,Indiranagar,Asha,CUST-0031,Card
+2026-11-05,Citrus Hand Wash,1,609.29,162.03,Personal Care,Indiranagar,Asha,CUST-0024,Card
+2026-11-06,Everyday Tote,1,1206.9,369.68,Accessories,Indiranagar,Asha,CUST-0014,Bank Transfer
+2026-11-06,Weekly Planner,1,802.91,182.03,Stationery,Whitefield,Meera,CUST-0021,UPI
+2026-11-06,Weekly Planner,2,803.58,183.0,Stationery,Koramangala,Tara,CUST-0003,Card
+2026-11-06,Canvas Backpack,1,2761.19,938.89,Accessories,Whitefield,Tara,CUST-0042,UPI
+2026-11-06,Everyday Tote,1,1162.02,330.87,Accessories,Indiranagar,Tara,CUST-0018,UPI
+2026-11-07,Weekly Planner,2,627.37,168.72,Stationery,Indiranagar,Asha,CUST-0054,Card
+2026-11-07,Everyday Tote,1,1057.03,379.58,Accessories,Koramangala,Rohan,CUST-0042,Card
+2026-11-07,Ceramic Mug,2,765.68,229.25,Homeware,Whitefield,Kabir,CUST-0003,Card
+2026-11-07,Botanical Lotion,1,890.01,305.61,Personal Care,Indiranagar,Asha,CUST-0003,Bank Transfer
+2026-11-07,Botanical Lotion,1,927.37,312.4,Personal Care,Koramangala,Kabir,CUST-0018,Card
+2026-11-08,Ceramic Mug,1,684.96,241.99,Homeware,Koramangala,Kabir,CUST-0042,UPI
+2026-11-08,Weekly Planner,1,583.68,164.15,Stationery,Indiranagar,Tara,CUST-0030,UPI
+2026-11-08,Citrus Hand Wash,1,545.86,173.18,Personal Care,Koramangala,Kabir,CUST-0001,Cash
+2026-11-08,Botanical Lotion,1,872.9,322.96,Personal Care,Indiranagar,Asha,CUST-0004,Card
+2026-11-08,Linen Throw,2,2800.19,1440.26,Homeware,Indiranagar,Rohan,CUST-0009,Card
+2026-11-09,Citrus Hand Wash,1,480.33,165.91,Personal Care,Indiranagar,Meera,CUST-0048,Card
+2026-11-09,Desk Organizer,2,1023.45,449.76,Stationery,Indiranagar,Asha,CUST-0048,UPI
+2026-11-09,Citrus Hand Wash,2,511.25,163.06,Personal Care,Koramangala,Meera,CUST-0044,UPI
+2026-11-09,Everyday Tote,1,859.37,345.93,Accessories,Koramangala,Meera,CUST-0051,UPI
+2026-11-09,Citrus Hand Wash,1,488.29,161.78,Personal Care,Indiranagar,Meera,CUST-0019,Card
+2026-11-10,Linen Throw,2,3497.54,1429.73,Homeware,Koramangala,Asha,CUST-0017,Card
+2026-11-10,Ceramic Mug,2,871.17,238.07,Homeware,Whitefield,Meera,CUST-0038,Card
+2026-11-10,Ceramic Mug,1,860.83,225.61,Homeware,Indiranagar,Asha,CUST-0079,Cash
+2026-11-10,Botanical Lotion,2,1107.41,301.68,Personal Care,Koramangala,Meera,CUST-0048,UPI
+2026-11-10,Citrus Hand Wash,1,694.11,162.32,Personal Care,Indiranagar,Tara,CUST-0022,Cash
+2026-11-11,Weekly Planner,1,744.85,168.03,Stationery,Whitefield,Kabir,CUST-0018,Card
+2026-11-11,Everyday Tote,1,1207.43,361.6,Accessories,Whitefield,Asha,CUST-0014,UPI
+2026-11-11,Citrus Hand Wash,1,663.27,160.94,Personal Care,Whitefield,Asha,CUST-0050,Bank Transfer
+2026-11-11,Everyday Tote,1,1143.88,348.83,Accessories,Indiranagar,Rohan,CUST-0053,Card
+2026-11-11,Ceramic Mug,2,860.83,235.37,Homeware,Indiranagar,Asha,CUST-0053,Bank Transfer
+2026-11-12,Weekly Planner,1,665.6,168.57,Stationery,Koramangala,Tara,CUST-0086,UPI
+2026-11-12,Botanical Lotion,1,1025.08,326.98,Personal Care,Whitefield,Asha,CUST-0023,UPI
+2026-11-12,Ceramic Mug,1,780.26,243.56,Homeware,Koramangala,Asha,CUST-0031,UPI
+2026-11-12,Ceramic Mug,1,782.72,234.47,Homeware,Koramangala,Asha,CUST-0048,UPI
+2026-11-12,Canvas Backpack,1,2234.82,882.92,Accessories,Koramangala,Rohan,CUST-0035,UPI
+2026-11-13,Citrus Hand Wash,1,839.87,167.54,Personal Care,Koramangala,Asha,CUST-0054,UPI
+2026-11-13,Ceramic Mug,2,1106.3,228.82,Homeware,Koramangala,Tara,CUST-0052,Card
+2026-11-13,Canvas Backpack,2,3270.32,891.13,Accessories,Whitefield,Meera,CUST-0046,UPI
+2026-11-13,Weekly Planner,1,984.22,171.56,Stationery,Whitefield,Tara,CUST-0017,UPI
+2026-11-13,Linen Throw,1,4126.98,1287.71,Homeware,Whitefield,Asha,CUST-0032,Cash
+2026-11-14,Canvas Backpack,1,3461.8,867.84,Accessories,Whitefield,Rohan,CUST-0019,UPI
+2026-11-14,Ceramic Mug,1,1205.28,230.71,Homeware,Indiranagar,Rohan,CUST-0030,UPI
+2026-11-14,Citrus Hand Wash,2,972.67,162.97,Personal Care,Indiranagar,Kabir,CUST-0003,Card
+2026-11-14,Everyday Tote,1,1681.57,361.32,Accessories,Whitefield,Tara,CUST-0030,Cash
+2026-11-14,Canvas Backpack,1,3470.43,823.72,Accessories,Indiranagar,Kabir,CUST-0065,Card
+2026-11-15,Weekly Planner,2,868.13,167.47,Stationery,Indiranagar,Kabir,CUST-0041,Card
+2026-11-15,Desk Organizer,1,1536.57,423.15,Stationery,Indiranagar,Asha,CUST-0018,UPI
+2026-11-15,Botanical Lotion,1,1263.98,294.87,Personal Care,Koramangala,Asha,CUST-0009,UPI
+2026-11-15,Linen Throw,1,3788.23,1310.76,Homeware,Indiranagar,Asha,CUST-0051,UPI
+2026-11-15,Citrus Hand Wash,2,823.24,165.47,Personal Care,Indiranagar,Meera,CUST-0052,Card
